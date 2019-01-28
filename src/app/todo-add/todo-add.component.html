@@ -1,0 +1,50 @@
+
+<div class="w3-container listtodo" *ngIf="todoAddForm">
+
+<div class="content">
+	<form class="w3-container" [formGroup]="todoAddForm" (ngSubmit)="doRegister()">
+	
+	<div class="desc">
+		<div class="content-head-txt"><span *ngIf="index == undefined">Add Todo</span><span *ngIf="index != undefined">Update Todo</span></div>
+		<div class="underline"></div>
+		<p>&nbsp;</p>
+	</div>
+	<div class="wrapper">
+		<div class="form-group">
+			<label class="w3-text-blue"><i class="w3-medium custom-icon fa"></i><b>Title</b> <span class="w3-small fa fa-asterisk text-danger"></span></label>
+			<input type="text" id="title" class="form-control create-event-textbox" formControlName="title" name="title" placeholder="Title" required>
+			<div class="w3-panel w3-red"  *ngIf="todoAddForm.controls.title.invalid && (todoAddForm.controls.title.dirty || todoAddForm.controls.title.touched)">Please enter 3 to 250 characters</div> 
+		</div>
+			<div class="form-group">
+			<label class="w3-text-blue"><i class="w3-medium custom-icon fa"></i><b>Detail</b></label>
+			<textarea rows="3" id="description" formControlName="description" name="description" rows="2" class="form-control"  placeholder="Enter details here..."></textarea>
+		</div>
+		<div class="form-group datetext">
+		<label class="w3-text-blue"><i class="w3-medium custom-icon fa"></i><b>Status</b> <span class="w3-small fa fa-asterisk text-danger"></span></label>
+			<select class="form-control create-event-textbox" formControlName="status" id="status" required name="status">
+			<option value="" disabled selected>Select Status</option>
+			<option value="NEW">NEW</option>
+			<option value="PENDING">PENDING</option>
+			<option value="COMPLETED">COMPLETED</option>
+			<option value="NEED MORE INFORMATION">NEED MORE INFORMATION</option>
+			</select>
+			<div class="w3-panel w3-red"  *ngIf="todoAddForm.controls.status.invalid && (todoAddForm.controls.status.dirty || todoAddForm.controls.status.touched)">Select Status</div> 
+		</div>
+		
+		<div class="form-group datetext">
+				<label class="w3-text-blue" style="display:block"><i class="w3-medium custom-icon fa fa-calendar"></i><b> Date</b> <span class="w3-small fa fa-asterisk text-danger"></span></label>
+				<input type="text" [owlDateTimeTrigger]="createddate" formControlName="createddate" [owlDateTime]="createddate" class="form-control create-event-textbox" name="createddate" placeholder="Select Date" required>
+				<span class="datespan" [owlDateTimeTrigger]="createddate"><!-- <i class="fa fa-calendar"></i> --></span>
+				<owl-date-time #createddate [pickerMode]="'dialog'"></owl-date-time>
+				<div class="w3-panel w3-red"  *ngIf="todoAddForm.controls.createddate.invalid && (todoAddForm.controls.createddate.dirty || todoAddForm.controls.createddate.touched)">Select Date</div> 
+		</div>
+
+		<br>
+		<button [disabled]="!todoAddForm.valid" class="w3-btn w3-blue" type="submit"><span *ngIf="index == undefined">Add Todo</span><span *ngIf="index != undefined">Update</span> <i class="w3-medium fa fa-check"></i> </button>
+		<a routerLink="/"><button class="w3-btn w3-blue" style="float:right" type="submit"><i class="w3-medium fa fa-chevron-left"></i> Back</button></a>
+</div>
+	</form>
+	
+</div>
+
+</div>

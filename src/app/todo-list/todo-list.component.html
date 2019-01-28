@@ -1,0 +1,36 @@
+<div class="creattodocontent listtodo">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="well">
+                        <div class="desc">
+                            <div class="eventbox-head-txt">My Todos</div>
+                            <div class="underline" ></div>
+                        </div>
+						
+	<div class="w3-panel w3-light-grey w3-padding-16 w3-card-2">
+		<table class="w3-table w3-striped w3-bordered">
+			<tr>
+				<th><i class="w3-medium custom-icon fa "></i>No.</th>
+				<!-- <th>ID</th> -->
+				<th><i class="w3-medium custom-icon fa fa-user"></i>Title</th>
+				<th><i class="w3-medium custom-icon fa fa-user"></i>Detail</th>
+				<th><i class="w3-medium custom-icon fa fa-book"></i>Status</th>
+				<th><i class="w3-medium custom-icon fa fa-calendar"></i> Date</th>
+				<th><i class="w3-medium custom-icon fa fa-pencil"></i> Update</th>
+				<th><i class="w3-medium custom-icon fa fa-trash"></i> Delete</th>
+			</tr>
+			<tr *ngFor="let todo of todoListData; index as i;">
+				<td>{{i +1}}</td>
+				<td class="pointer">{{todo.title}}</td>
+				<td class="pointer">{{todo.description}}</td>
+				<td class="pointer">{{todo.status}}</td>
+				<td class="pointer">{{todo.createddate| date:'yyyy-MM-dd HH:mm a'}}</td>
+				<td><button [routerLink]="['update',todo._id]" class="w3-button w3-blue">Update</button></td>
+				<td><button (click)="deleteTodo(todo._id)" class="w3-button w3-red">Delete</button></td>
+			</tr>
+		</table>
+	</div>
+                </div>
+            </div>
+        </div>
+</div>

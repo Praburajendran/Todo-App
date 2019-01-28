@@ -1,0 +1,52 @@
+
+.eventregbutton {
+    width: 18%;
+    height: 50px;
+    background-color: #f58922;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    box-shadow: 0px 8px 6px 0 rgba(0, 0, 0, 0.07);
+    letter-spacing: 2px;
+    font-weight: bold;
+    border: none;
+}
+
+.eventregbutton a {
+    text-decoration: none;
+    color: white;
+}
+
+.regbutton {
+    height: 54px;
+    width: 80%;
+    background-color: #f58922;
+    color: #ffffff;
+    box-shadow: 0px 8px 6px 0 rgba(0, 0, 0, 0.07);
+    letter-spacing: 2px;
+    font-weight: bold;
+    border: none;
+}
+
+.regtextbox {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    height: 48px;
+    background-color: #ffffff;
+    box-shadow: 0px 8px 6px 0 rgba(0, 0, 0, 0.07);
+}
+
+.regboxhead-txt {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.61;
+    letter-spacing: 3.1px;
+    text-align: center;
+    color: #000000;
+    margin-top: 10px;
+}

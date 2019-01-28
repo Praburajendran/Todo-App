@@ -1,0 +1,12 @@
+url :
+
+http://ec2-34-211-7-87.us-west-2.compute.amazonaws.com:8087/indianl/api/admin/imageupload/1?imageType=1
+
+method : post
+
+body :
+.............
+{ 
+	file : imageobject
+}
+

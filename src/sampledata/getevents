@@ -1,0 +1,30 @@
+url : http://ec2-34-211-7-87.us-west-2.compute.amazonaws.com:8087/indianl/api/public/event
+method : get
+response:
+.......................
+[{
+	"eventId": 1,
+	"schedules": [{
+		"startDate": "02-01-2018 00:00:00",
+		"endDate": "02-01-2018 00:00:00"
+	}],
+	"eventType": {
+		"code": "1",
+		"value": "OPEN EVENT",
+		"description": "this is a type of event where anybody can perticipate , does not require any registration",
+		"position": 1
+	},
+	"status": {
+		"code": "0",
+		"value": "PENDING",
+		"description": "still to happen"
+	},
+	"dateCreation": "13-12-2017 18:49:24",
+	"location": "Mastricht, 1180 AB",
+	"createdBy": "ADMIN",
+	"name": "REPUBLIC DAY",
+	"description": "REPUBLIC DAY Event",
+	"longDescription": "alpha, Î¬Î»Ï†Î± upsilon, Ï�ÏˆÎ¹Î»Î¿Î½",
+	"images": ["/api/images/1", "/api/images/2"],
+	"videos": []
+}]

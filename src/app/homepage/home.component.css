@@ -1,0 +1,34 @@
+.sidebar{
+	background-color:#F4D9BB;
+	font-size: 20px;
+	color: #114A70;
+	height:80px;
+}
+.w3-teal{
+	background-color:#E78593 !important;
+	height:80px;
+}
+a:focus, a:hover{
+	text-decoration:none;
+}	
+.w3-bar-block .w3-bar-item{
+	display:inline
+}
+.w3-button{
+	height:80px;
+	vertical-align:middle;
+	padding-top: 20px;
+}
+.w3-button:hover{
+	background-color:#E78593 !important;
+}
+.childcontent{
+	background: url(../../assets/images/todolist3.jpg) no-repeat center;
+	background-size:cover;
+	height:100vh;
+}
+.linkDisabled{
+cursor: not-allowed;
+pointer-events:none;
+color:grey;
+}

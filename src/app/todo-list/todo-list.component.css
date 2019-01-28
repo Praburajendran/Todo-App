@@ -1,0 +1,63 @@
+ .underline{
+	 margin:0 auto !important;
+	 width:60px; 
+	 height:1px;
+	 background-color:#000
+ }
+ 
+ .eventbox-head-txt{
+     font-family: 'Montserrat', sans-serif;
+     font-size: 30px;
+     letter-spacing: 3.1px;
+     text-align: center;
+     color: #000000;
+}
+ .creattodocontent .desc div{
+     margin:25px;
+}
+
+.listtodo{
+	margin-top:80px;
+}
+ .textdesc{
+     padding-left:15%;
+     padding-right:15%;
+}
+ .eventcreatediv{
+     width:85%;
+}
+ .calendardiv .input-group-addon{
+     font-size:20px;
+     background-color:#ffffff;
+     color:#f58922;
+     position:relative;
+     z-index:10;
+     padding:0px;
+     margin:0px;
+     display:inline;
+     float:right;
+     bottom:36px;
+     right:25px;
+     border:none;
+}
+ select{
+     color: #9b9898;
+}
+ option {
+     color: #000;
+}
+ .form-group{
+     margin:0px;
+}
+ .eventcreatediv .input-group[class*=col-] {
+     float: left !important;
+     padding-right: 15px;
+     padding-left: 15px;
+}
+ .create-event-content .well{
+     width: 100%;
+     height: auto;
+     border-radius:0px;
+     margin-bottom:0px;
+     background: rgba(255,255,255,0.83);
+}

@@ -1,0 +1,25 @@
+url: http://ec2-34-211-7-87.us-west-2.compute.amazonaws.com:8087/indianl/api/admin/events
+method : post
+
+data to post:
+..............
+
+{
+	"eventId": 1,
+	"schedules": [{
+		"startDate": "20-02-2018 09:00:00",
+		"endDate": "20-01-2018 10:00:00"
+	}],
+	"eventType": {
+		"code": "1"
+	},
+	"status": {
+		"code": "0"
+	},
+	"location": "Mastricht, 1180 AB",
+	"name": "REPUBLIC DAY",
+	"description": "REPUBLIC DAY Event",
+	"longDescription": "REPUBLIC DAY Event Celebration"
+}
+
+

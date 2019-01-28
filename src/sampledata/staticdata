@@ -1,0 +1,4865 @@
+url : http://ec2-34-211-7-87.us-west-2.compute.amazonaws.com:8087/indianl/api/public/staticdata
+method : get
+
+response 
+------------------------------------------------------------------------------------------------------
+{
+    "eventtypes": [
+        {
+            "code": "1",
+            "value": "OPEN EVENT",
+            "description": "this is a type of event where anybody can perticipate , does not require any registration",
+            "position": 1
+        },
+        {
+            "code": "2",
+            "value": "EVENT WITH SELF REGISTRATION",
+            "description": "this is a type of event where automatic invitation will be sent",
+            "position": 2
+        },
+        {
+            "code": "3",
+            "value": "EVENT WITH AUTOMAIC INVITATION",
+            "description": "this is a type of event where automatic invitation will be sent",
+            "position": 3
+        },
+        {
+            "code": "4",
+            "value": "HIGH PROFILE EVENT",
+            "description": "this is a type of event where automatic invitation will be sent",
+            "position": 4
+        }
+    ],
+    "occupations": [
+        {
+            "code": "1",
+            "value": "Able Seamen",
+            "position": 1
+        },
+        {
+            "code": "2",
+            "value": "Account Collector",
+            "position": 2
+        },
+        {
+            "code": "3",
+            "value": "Accounting Specialist",
+            "position": 3
+        },
+        {
+            "code": "4",
+            "value": "Adjustment Clerk",
+            "position": 4
+        },
+        {
+            "code": "5",
+            "value": "Administrative Assistant",
+            "position": 5
+        },
+        {
+            "code": "6",
+            "value": "Administrative Law Judge",
+            "position": 6
+        },
+        {
+            "code": "7",
+            "value": "Administrative Service Manager",
+            "position": 7
+        },
+        {
+            "code": "8",
+            "value": "Admiralty Lawyer",
+            "position": 8
+        },
+        {
+            "code": "9",
+            "value": "Adult Literacy and Remedial Education Teachers",
+            "position": 9
+        },
+        {
+            "code": "10",
+            "value": "Advertising Account Executive",
+            "position": 10
+        },
+        {
+            "code": "11",
+            "value": "Advertising Agency Coordinator",
+            "position": 11
+        },
+        {
+            "code": "12",
+            "value": "Aeronautical & Aerospace Engineer",
+            "position": 12
+        },
+        {
+            "code": "13",
+            "value": "Aerospace Engineering Technician",
+            "position": 13
+        },
+        {
+            "code": "14",
+            "value": "Agricultural Crop Farm Manager",
+            "position": 14
+        },
+        {
+            "code": "15",
+            "value": "Agricultural Engineer",
+            "position": 15
+        },
+        {
+            "code": "16",
+            "value": "Agricultural Equipment Operator",
+            "position": 16
+        },
+        {
+            "code": "17",
+            "value": "Agricultural Inspector",
+            "position": 17
+        },
+        {
+            "code": "18",
+            "value": "Agricultural Product Sorter",
+            "position": 18
+        },
+        {
+            "code": "19",
+            "value": "Agricultural Sciences Professor",
+            "position": 19
+        },
+        {
+            "code": "20",
+            "value": "Agricultural Technician",
+            "position": 20
+        },
+        {
+            "code": "21",
+            "value": "Air Crew Member",
+            "position": 21
+        },
+        {
+            "code": "22",
+            "value": "Air Crew Officer",
+            "position": 22
+        },
+        {
+            "code": "23",
+            "value": "Air Traffic Controller",
+            "position": 23
+        },
+        {
+            "code": "24",
+            "value": "Aircraft Assembler",
+            "position": 24
+        },
+        {
+            "code": "25",
+            "value": "Aircraft Body and Bonded Structure Repairer",
+            "position": 25
+        },
+        {
+            "code": "26",
+            "value": "Aircraft Cargo Handling Supervisor",
+            "position": 26
+        },
+        {
+            "code": "27",
+            "value": "Aircraft Examiner",
+            "position": 27
+        },
+        {
+            "code": "28",
+            "value": "Aircraft Launch and Recovery Officer",
+            "position": 28
+        },
+        {
+            "code": "29",
+            "value": "Aircraft Launch and Recovery Specialist",
+            "position": 29
+        },
+        {
+            "code": "30",
+            "value": "Aircraft Mechanic",
+            "position": 30
+        },
+        {
+            "code": "31",
+            "value": "Airfield Operations Specialist",
+            "position": 31
+        },
+        {
+            "code": "32",
+            "value": "Airline Flight Attendant",
+            "position": 32
+        },
+        {
+            "code": "33",
+            "value": "Airline Flight Control Administrator",
+            "position": 33
+        },
+        {
+            "code": "34",
+            "value": "Airline Flight Operations Administrator",
+            "position": 34
+        },
+        {
+            "code": "35",
+            "value": "Airline Flight Reservations Administrator",
+            "position": 35
+        },
+        {
+            "code": "36",
+            "value": "Airport Administrator",
+            "position": 36
+        },
+        {
+            "code": "37",
+            "value": "Airport Design Engineer",
+            "position": 37
+        },
+        {
+            "code": "38",
+            "value": "Alcohol & Drug Abuse Assistance Coordinator",
+            "position": 38
+        },
+        {
+            "code": "39",
+            "value": "Alumni Relations Coordinator",
+            "position": 39
+        },
+        {
+            "code": "40",
+            "value": "Ambulance Drivers",
+            "position": 40
+        },
+        {
+            "code": "41",
+            "value": "Amusement Park & Recreation Attendants",
+            "position": 41
+        },
+        {
+            "code": "42",
+            "value": "Anesthesiologist (MD)",
+            "position": 42
+        },
+        {
+            "code": "43",
+            "value": "Animal Breeder",
+            "position": 43
+        },
+        {
+            "code": "44",
+            "value": "Animal Control Worker",
+            "position": 44
+        },
+        {
+            "code": "45",
+            "value": "Animal Husbandry Worker Supervisor",
+            "position": 45
+        },
+        {
+            "code": "46",
+            "value": "Animal Keepers and Groomers",
+            "position": 46
+        },
+        {
+            "code": "47",
+            "value": "Animal Kennel Supervisor",
+            "position": 47
+        },
+        {
+            "code": "48",
+            "value": "Animal Scientist",
+            "position": 48
+        },
+        {
+            "code": "49",
+            "value": "Animal Trainer",
+            "position": 49
+        },
+        {
+            "code": "50",
+            "value": "Animation Cartoonist",
+            "position": 50
+        },
+        {
+            "code": "51",
+            "value": "Answering Service Operator",
+            "position": 51
+        },
+        {
+            "code": "52",
+            "value": "Anthropology and Archeology Professor",
+            "position": 52
+        },
+        {
+            "code": "53",
+            "value": "Anti-Terrorism Intelligence Agent",
+            "position": 53
+        },
+        {
+            "code": "54",
+            "value": "Appeals Referee",
+            "position": 54
+        },
+        {
+            "code": "55",
+            "value": "Aquaculturist (Fish Farmer)",
+            "position": 55
+        },
+        {
+            "code": "56",
+            "value": "Aquarium Curator",
+            "position": 56
+        },
+        {
+            "code": "57",
+            "value": "Architecture Professor",
+            "position": 57
+        },
+        {
+            "code": "58",
+            "value": "Area, Ethnic, and Cultural Studies Professor",
+            "position": 58
+        },
+        {
+            "code": "59",
+            "value": "Armored Assault Vehicle Crew Member",
+            "position": 59
+        },
+        {
+            "code": "60",
+            "value": "Armored Assault Vehicle Officer",
+            "position": 60
+        },
+        {
+            "code": "61",
+            "value": "Art Appraiser",
+            "position": 61
+        },
+        {
+            "code": "62",
+            "value": "Art Director",
+            "position": 62
+        },
+        {
+            "code": "63",
+            "value": "Art Restorer",
+            "position": 63
+        },
+        {
+            "code": "64",
+            "value": "Art Therapist",
+            "position": 64
+        },
+        {
+            "code": "65",
+            "value": "Art, Drama, and Music Professor",
+            "position": 65
+        },
+        {
+            "code": "66",
+            "value": "Artillery and Missile Crew Member",
+            "position": 66
+        },
+        {
+            "code": "67",
+            "value": "Artillery and Missile Officer",
+            "position": 67
+        },
+        {
+            "code": "68",
+            "value": "Artists Agent (Manager)",
+            "position": 68
+        },
+        {
+            "code": "69",
+            "value": "Athletes' Business Manager",
+            "position": 69
+        },
+        {
+            "code": "70",
+            "value": "Athletic Coach",
+            "position": 70
+        },
+        {
+            "code": "71",
+            "value": "Athletic Director",
+            "position": 71
+        },
+        {
+            "code": "72",
+            "value": "Athletic Trainer",
+            "position": 72
+        },
+        {
+            "code": "73",
+            "value": "ATM Machine Servicer",
+            "position": 73
+        },
+        {
+            "code": "74",
+            "value": "Atmospheric and Space Scientist",
+            "position": 74
+        },
+        {
+            "code": "75",
+            "value": "Audio-Visual Collections Specialist",
+            "position": 75
+        },
+        {
+            "code": "76",
+            "value": "Audiovisual Production Specialist",
+            "position": 76
+        },
+        {
+            "code": "77",
+            "value": "Automobile Mechanic",
+            "position": 77
+        },
+        {
+            "code": "78",
+            "value": "Automotive Body Repairer",
+            "position": 78
+        },
+        {
+            "code": "79",
+            "value": "Automotive Engineer",
+            "position": 79
+        },
+        {
+            "code": "80",
+            "value": "Automotive Glass Installer",
+            "position": 80
+        },
+        {
+            "code": "81",
+            "value": "Avionics Technician",
+            "position": 81
+        },
+        {
+            "code": "82",
+            "value": "Baggage Porters and Bellhops",
+            "position": 82
+        },
+        {
+            "code": "83",
+            "value": "Baker (Commercial)",
+            "position": 83
+        },
+        {
+            "code": "84",
+            "value": "Ballistics Expert",
+            "position": 84
+        },
+        {
+            "code": "85",
+            "value": "Bank and Branch Managers",
+            "position": 85
+        },
+        {
+            "code": "86",
+            "value": "Bank Examiner",
+            "position": 86
+        },
+        {
+            "code": "87",
+            "value": "Bank Teller",
+            "position": 87
+        },
+        {
+            "code": "88",
+            "value": "Benefits Manager",
+            "position": 88
+        },
+        {
+            "code": "89",
+            "value": "Bicycle Mechanic",
+            "position": 89
+        },
+        {
+            "code": "90",
+            "value": "Billing Specialist",
+            "position": 90
+        },
+        {
+            "code": "91",
+            "value": "Bindery Machine Set-Up Operators",
+            "position": 91
+        },
+        {
+            "code": "92",
+            "value": "Bindery Machine Tender",
+            "position": 92
+        },
+        {
+            "code": "93",
+            "value": "Biological Technician",
+            "position": 93
+        },
+        {
+            "code": "94",
+            "value": "Biology Professor",
+            "position": 94
+        },
+        {
+            "code": "95",
+            "value": "Biomedical Engineer",
+            "position": 95
+        },
+        {
+            "code": "96",
+            "value": "Biomedical Equipment Technician",
+            "position": 96
+        },
+        {
+            "code": "97",
+            "value": "Boat Builder",
+            "position": 97
+        },
+        {
+            "code": "98",
+            "value": "Book Editor",
+            "position": 98
+        },
+        {
+            "code": "99",
+            "value": "Border Patrol Agent",
+            "position": 99
+        },
+        {
+            "code": "100",
+            "value": "Brattice Builder",
+            "position": 100
+        },
+        {
+            "code": "101",
+            "value": "Bridge and Lock Tenders",
+            "position": 101
+        },
+        {
+            "code": "102",
+            "value": "Broadcast News Analyst",
+            "position": 102
+        },
+        {
+            "code": "103",
+            "value": "Broadcast Technician",
+            "position": 103
+        },
+        {
+            "code": "104",
+            "value": "Broker's Floor Representative",
+            "position": 104
+        },
+        {
+            "code": "105",
+            "value": "Brokerage Clerk",
+            "position": 105
+        },
+        {
+            "code": "106",
+            "value": "Budget Accountant",
+            "position": 106
+        },
+        {
+            "code": "107",
+            "value": "Budget Analyst",
+            "position": 107
+        },
+        {
+            "code": "108",
+            "value": "Building Inspector",
+            "position": 108
+        },
+        {
+            "code": "109",
+            "value": "Building Maintenance Mechanic",
+            "position": 109
+        },
+        {
+            "code": "110",
+            "value": "Bulldozer / Grader Operator",
+            "position": 110
+        },
+        {
+            "code": "111",
+            "value": "Bus and Truck Mechanics",
+            "position": 111
+        },
+        {
+            "code": "112",
+            "value": "Bus Boy / Bus Girl",
+            "position": 112
+        },
+        {
+            "code": "113",
+            "value": "Bus Driver (School)",
+            "position": 113
+        },
+        {
+            "code": "114",
+            "value": "Bus Driver (Transit)",
+            "position": 114
+        },
+        {
+            "code": "115",
+            "value": "Business Professor",
+            "position": 115
+        },
+        {
+            "code": "116",
+            "value": "Business Service Specialist",
+            "position": 116
+        },
+        {
+            "code": "117",
+            "value": "Cabinet Maker",
+            "position": 117
+        },
+        {
+            "code": "118",
+            "value": "Camp Director",
+            "position": 118
+        },
+        {
+            "code": "119",
+            "value": "Caption Writer",
+            "position": 119
+        },
+        {
+            "code": "120",
+            "value": "Cardiologist (MD)",
+            "position": 120
+        },
+        {
+            "code": "121",
+            "value": "Cardiopulmonary Technologist",
+            "position": 121
+        },
+        {
+            "code": "122",
+            "value": "Career Counselor",
+            "position": 122
+        },
+        {
+            "code": "123",
+            "value": "Cargo and Freight Agents",
+            "position": 123
+        },
+        {
+            "code": "124",
+            "value": "Carpenter's Assistant",
+            "position": 124
+        },
+        {
+            "code": "125",
+            "value": "Carpet Installer",
+            "position": 125
+        },
+        {
+            "code": "126",
+            "value": "Cartographer (Map Scientist)",
+            "position": 126
+        },
+        {
+            "code": "127",
+            "value": "Cartographic Technician",
+            "position": 127
+        },
+        {
+            "code": "128",
+            "value": "Cartoonist (Publications)",
+            "position": 128
+        },
+        {
+            "code": "129",
+            "value": "Casino Cage Worker",
+            "position": 129
+        },
+        {
+            "code": "130",
+            "value": "Casino Cashier",
+            "position": 130
+        },
+        {
+            "code": "131",
+            "value": "Casino Dealer",
+            "position": 131
+        },
+        {
+            "code": "132",
+            "value": "Casino Floor Person",
+            "position": 132
+        },
+        {
+            "code": "133",
+            "value": "Casino Manager",
+            "position": 133
+        },
+        {
+            "code": "134",
+            "value": "Casino Pit Boss",
+            "position": 134
+        },
+        {
+            "code": "135",
+            "value": "Casino Slot Machine Mechanic",
+            "position": 135
+        },
+        {
+            "code": "136",
+            "value": "Casino Surveillance Officer",
+            "position": 136
+        },
+        {
+            "code": "137",
+            "value": "Casting Director",
+            "position": 137
+        },
+        {
+            "code": "138",
+            "value": "Catering Administrator",
+            "position": 138
+        },
+        {
+            "code": "139",
+            "value": "Ceiling Tile Installer",
+            "position": 139
+        },
+        {
+            "code": "140",
+            "value": "Cement Mason",
+            "position": 140
+        },
+        {
+            "code": "141",
+            "value": "Ceramic Engineer",
+            "position": 141
+        },
+        {
+            "code": "142",
+            "value": "Certified Public Accountant (CPA)",
+            "position": 142
+        },
+        {
+            "code": "143",
+            "value": "Chaplain (Prison, Military, Hospital)",
+            "position": 143
+        },
+        {
+            "code": "144",
+            "value": "Chemical Engineer",
+            "position": 144
+        },
+        {
+            "code": "145",
+            "value": "Chemical Equipment Operator",
+            "position": 145
+        },
+        {
+            "code": "146",
+            "value": "Chemical Plant Operator",
+            "position": 146
+        },
+        {
+            "code": "147",
+            "value": "Chemical Technicians",
+            "position": 147
+        },
+        {
+            "code": "148",
+            "value": "Chemistry Professor",
+            "position": 148
+        },
+        {
+            "code": "149",
+            "value": "Chief Financial Officer",
+            "position": 149
+        },
+        {
+            "code": "150",
+            "value": "Child Care Center Administrator",
+            "position": 150
+        },
+        {
+            "code": "151",
+            "value": "Child Care Worker",
+            "position": 151
+        },
+        {
+            "code": "152",
+            "value": "Child Life Specialist",
+            "position": 152
+        },
+        {
+            "code": "153",
+            "value": "Child Support Investigator",
+            "position": 153
+        },
+        {
+            "code": "154",
+            "value": "Child Support Services Worker",
+            "position": 154
+        },
+        {
+            "code": "155",
+            "value": "City Planning Aide",
+            "position": 155
+        },
+        {
+            "code": "156",
+            "value": "Civil Drafter",
+            "position": 156
+        },
+        {
+            "code": "157",
+            "value": "Civil Engineer",
+            "position": 157
+        },
+        {
+            "code": "158",
+            "value": "Civil Engineering Technician",
+            "position": 158
+        },
+        {
+            "code": "159",
+            "value": "Clergy Member (Religious Leader)",
+            "position": 159
+        },
+        {
+            "code": "160",
+            "value": "Clinical Dietitian",
+            "position": 160
+        },
+        {
+            "code": "161",
+            "value": "Clinical Psychologist",
+            "position": 161
+        },
+        {
+            "code": "162",
+            "value": "Clinical Sociologist",
+            "position": 162
+        },
+        {
+            "code": "163",
+            "value": "Coatroom and Dressing Room Attendants",
+            "position": 163
+        },
+        {
+            "code": "164",
+            "value": "College/University Professor",
+            "position": 164
+        },
+        {
+            "code": "165",
+            "value": "Commercial Designer",
+            "position": 165
+        },
+        {
+            "code": "166",
+            "value": "Commercial Diver",
+            "position": 166
+        },
+        {
+            "code": "167",
+            "value": "Commercial Fisherman",
+            "position": 167
+        },
+        {
+            "code": "168",
+            "value": "Communication Equipment Mechanic",
+            "position": 168
+        },
+        {
+            "code": "169",
+            "value": "Communications Professor",
+            "position": 169
+        },
+        {
+            "code": "170",
+            "value": "Community Health Nurse",
+            "position": 170
+        },
+        {
+            "code": "171",
+            "value": "Community Organization Worker",
+            "position": 171
+        },
+        {
+            "code": "172",
+            "value": "Community Welfare Worker",
+            "position": 172
+        },
+        {
+            "code": "173",
+            "value": "Compensation Administrator",
+            "position": 173
+        },
+        {
+            "code": "174",
+            "value": "Compensation Specialist",
+            "position": 174
+        },
+        {
+            "code": "175",
+            "value": "Compliance Officer",
+            "position": 175
+        },
+        {
+            "code": "176",
+            "value": "Computer Aided Design (CAD) Technician",
+            "position": 176
+        },
+        {
+            "code": "177",
+            "value": "Computer and Information Scientists, Research",
+            "position": 177
+        },
+        {
+            "code": "178",
+            "value": "Computer and Information Systems Managers",
+            "position": 178
+        },
+        {
+            "code": "179",
+            "value": "Computer Applications Engineer",
+            "position": 179
+        },
+        {
+            "code": "180",
+            "value": "Computer Controlled Machine Tool Operators",
+            "position": 180
+        },
+        {
+            "code": "181",
+            "value": "Computer Customer Support Specialist",
+            "position": 181
+        },
+        {
+            "code": "182",
+            "value": "Computer Hardware Technician",
+            "position": 182
+        },
+        {
+            "code": "183",
+            "value": "Computer Operators",
+            "position": 183
+        },
+        {
+            "code": "184",
+            "value": "Computer Programmer",
+            "position": 184
+        },
+        {
+            "code": "185",
+            "value": "Computer Science Professor",
+            "position": 185
+        },
+        {
+            "code": "186",
+            "value": "Computer Security Specialist",
+            "position": 186
+        },
+        {
+            "code": "187",
+            "value": "Computer Software Engineers",
+            "position": 187
+        },
+        {
+            "code": "188",
+            "value": "Computer Software Technician",
+            "position": 188
+        },
+        {
+            "code": "189",
+            "value": "Computer Systems Engineer",
+            "position": 189
+        },
+        {
+            "code": "190",
+            "value": "Congressional Aide",
+            "position": 190
+        },
+        {
+            "code": "191",
+            "value": "Conservation Scientist",
+            "position": 191
+        },
+        {
+            "code": "192",
+            "value": "Construction Driller",
+            "position": 192
+        },
+        {
+            "code": "193",
+            "value": "Construction Laborer",
+            "position": 193
+        },
+        {
+            "code": "194",
+            "value": "Construction Manager",
+            "position": 194
+        },
+        {
+            "code": "195",
+            "value": "Construction Trades Supervisor",
+            "position": 195
+        },
+        {
+            "code": "196",
+            "value": "Contract Administrator",
+            "position": 196
+        },
+        {
+            "code": "197",
+            "value": "Contract Specialist",
+            "position": 197
+        },
+        {
+            "code": "198",
+            "value": "Control Center Specialist (Military)",
+            "position": 198
+        },
+        {
+            "code": "199",
+            "value": "Controller (Finance)",
+            "position": 199
+        },
+        {
+            "code": "200",
+            "value": "Cook (Cafeteria)",
+            "position": 200
+        },
+        {
+            "code": "201",
+            "value": "Cook (Fast Food)",
+            "position": 201
+        },
+        {
+            "code": "202",
+            "value": "Cook (Private Household)",
+            "position": 202
+        },
+        {
+            "code": "203",
+            "value": "Cook (Restaurant)",
+            "position": 203
+        },
+        {
+            "code": "204",
+            "value": "Cook (Short Order)",
+            "position": 204
+        },
+        {
+            "code": "205",
+            "value": "Copy Writer",
+            "position": 205
+        },
+        {
+            "code": "206",
+            "value": "Corporation Lawyer",
+            "position": 206
+        },
+        {
+            "code": "207",
+            "value": "Correction Officer",
+            "position": 207
+        },
+        {
+            "code": "208",
+            "value": "Correspondence Clerk",
+            "position": 208
+        },
+        {
+            "code": "209",
+            "value": "Cosmetologist (Hair Stylist)",
+            "position": 209
+        },
+        {
+            "code": "210",
+            "value": "Cost Accountant",
+            "position": 210
+        },
+        {
+            "code": "211",
+            "value": "Cost Analysis Engineer",
+            "position": 211
+        },
+        {
+            "code": "212",
+            "value": "Cost Estimator",
+            "position": 212
+        },
+        {
+            "code": "213",
+            "value": "Costume Attendant",
+            "position": 213
+        },
+        {
+            "code": "214",
+            "value": "Counseling Psychologist",
+            "position": 214
+        },
+        {
+            "code": "215",
+            "value": "Counter and Rental Clerks",
+            "position": 215
+        },
+        {
+            "code": "216",
+            "value": "County or City Auditor",
+            "position": 216
+        },
+        {
+            "code": "217",
+            "value": "Couriers and Messengers",
+            "position": 217
+        },
+        {
+            "code": "218",
+            "value": "Court Administrator",
+            "position": 218
+        },
+        {
+            "code": "219",
+            "value": "Court Clerk",
+            "position": 219
+        },
+        {
+            "code": "220",
+            "value": "Court Reporter",
+            "position": 220
+        },
+        {
+            "code": "221",
+            "value": "Craft Artist",
+            "position": 221
+        },
+        {
+            "code": "222",
+            "value": "Crane Operator",
+            "position": 222
+        },
+        {
+            "code": "223",
+            "value": "Credit Adjuster",
+            "position": 223
+        },
+        {
+            "code": "224",
+            "value": "Credit Analyst",
+            "position": 224
+        },
+        {
+            "code": "225",
+            "value": "Credit Reporter",
+            "position": 225
+        },
+        {
+            "code": "226",
+            "value": "Criminal Investigator (Detective)",
+            "position": 226
+        },
+        {
+            "code": "227",
+            "value": "Criminal Justice Professor",
+            "position": 227
+        },
+        {
+            "code": "228",
+            "value": "Criminal Lawyer",
+            "position": 228
+        },
+        {
+            "code": "229",
+            "value": "Crop Workers Supervisor",
+            "position": 229
+        },
+        {
+            "code": "230",
+            "value": "Crossing Guard",
+            "position": 230
+        },
+        {
+            "code": "231",
+            "value": "Custom Tailor",
+            "position": 231
+        },
+        {
+            "code": "232",
+            "value": "Customer Service Representative (Utilities)",
+            "position": 232
+        },
+        {
+            "code": "233",
+            "value": "Customer Service Supervisor",
+            "position": 233
+        },
+        {
+            "code": "234",
+            "value": "Customs Inspector",
+            "position": 234
+        },
+        {
+            "code": "235",
+            "value": "Cutting Machine Operators",
+            "position": 235
+        },
+        {
+            "code": "236",
+            "value": "Dairy Technologist",
+            "position": 236
+        },
+        {
+            "code": "237",
+            "value": "Database Administrator",
+            "position": 237
+        },
+        {
+            "code": "238",
+            "value": "Deaf Students Teacher",
+            "position": 238
+        },
+        {
+            "code": "239",
+            "value": "Delivery Driver",
+            "position": 239
+        },
+        {
+            "code": "240",
+            "value": "Demonstrators and Product Promoters",
+            "position": 240
+        },
+        {
+            "code": "241",
+            "value": "Dental / Orthodontic Office Administrator",
+            "position": 241
+        },
+        {
+            "code": "242",
+            "value": "Dental Assistant",
+            "position": 242
+        },
+        {
+            "code": "243",
+            "value": "Dental Hygienist",
+            "position": 243
+        },
+        {
+            "code": "244",
+            "value": "Dental Laboratory Technician",
+            "position": 244
+        },
+        {
+            "code": "245",
+            "value": "Dentist (MD)",
+            "position": 245
+        },
+        {
+            "code": "246",
+            "value": "Dermatologist (MD)",
+            "position": 246
+        },
+        {
+            "code": "247",
+            "value": "Desktop Publishing Specialist",
+            "position": 247
+        },
+        {
+            "code": "248",
+            "value": "Developmental Psychologist",
+            "position": 248
+        },
+        {
+            "code": "249",
+            "value": "Die Cutter Operator",
+            "position": 249
+        },
+        {
+            "code": "250",
+            "value": "Dietetic Technician",
+            "position": 250
+        },
+        {
+            "code": "251",
+            "value": "Dietitian and Nutritionist",
+            "position": 251
+        },
+        {
+            "code": "252",
+            "value": "Directory Assistance Operator",
+            "position": 252
+        },
+        {
+            "code": "253",
+            "value": "Disabled Students Teacher",
+            "position": 253
+        },
+        {
+            "code": "254",
+            "value": "Disk Jockey",
+            "position": 254
+        },
+        {
+            "code": "255",
+            "value": "Dispatcher (Safety Vehicles)",
+            "position": 255
+        },
+        {
+            "code": "256",
+            "value": "Door To Door Salesmen",
+            "position": 256
+        },
+        {
+            "code": "257",
+            "value": "Dry Wall Installer",
+            "position": 257
+        },
+        {
+            "code": "258",
+            "value": "Economics Professor",
+            "position": 258
+        },
+        {
+            "code": "259",
+            "value": "Editorial Writer, Newspapers & Magazines",
+            "position": 259
+        },
+        {
+            "code": "260",
+            "value": "Education and Training Administrator",
+            "position": 260
+        },
+        {
+            "code": "261",
+            "value": "Education Professor",
+            "position": 261
+        },
+        {
+            "code": "262",
+            "value": "Educational Administrator",
+            "position": 262
+        },
+        {
+            "code": "263",
+            "value": "Educational Psychologist",
+            "position": 263
+        },
+        {
+            "code": "264",
+            "value": "Educational Resource Coordinator",
+            "position": 264
+        },
+        {
+            "code": "265",
+            "value": "Educational Therapist",
+            "position": 265
+        },
+        {
+            "code": "266",
+            "value": "EEG Technician/Technologist",
+            "position": 266
+        },
+        {
+            "code": "267",
+            "value": "Electric Meter Installer",
+            "position": 267
+        },
+        {
+            "code": "268",
+            "value": "Electric Motor Mechanic",
+            "position": 268
+        },
+        {
+            "code": "269",
+            "value": "Electrical and Electronic Inspector",
+            "position": 269
+        },
+        {
+            "code": "270",
+            "value": "Electrical Drafter",
+            "position": 270
+        },
+        {
+            "code": "271",
+            "value": "Electrical Engineers",
+            "position": 271
+        },
+        {
+            "code": "272",
+            "value": "Electrical Parts Reconditioner",
+            "position": 272
+        },
+        {
+            "code": "273",
+            "value": "Electrical Technician",
+            "position": 273
+        },
+        {
+            "code": "274",
+            "value": "Electro-Mechanical Technicians",
+            "position": 274
+        },
+        {
+            "code": "275",
+            "value": "Electromechanical Equipment Assembler",
+            "position": 275
+        },
+        {
+            "code": "276",
+            "value": "Electronic Drafter",
+            "position": 276
+        },
+        {
+            "code": "277",
+            "value": "Electronics Engineer",
+            "position": 277
+        },
+        {
+            "code": "278",
+            "value": "Electronics Technician",
+            "position": 278
+        },
+        {
+            "code": "279",
+            "value": "Elementary School Administrator",
+            "position": 279
+        },
+        {
+            "code": "280",
+            "value": "Elementary School Teacher",
+            "position": 280
+        },
+        {
+            "code": "281",
+            "value": "Elevator Mechanic",
+            "position": 281
+        },
+        {
+            "code": "282",
+            "value": "Emergency Management Specialist",
+            "position": 282
+        },
+        {
+            "code": "283",
+            "value": "Emergency Medical Technician",
+            "position": 283
+        },
+        {
+            "code": "284",
+            "value": "Employee Benefits Analyst",
+            "position": 284
+        },
+        {
+            "code": "285",
+            "value": "Employee Training Instructor",
+            "position": 285
+        },
+        {
+            "code": "286",
+            "value": "Employment Administrator",
+            "position": 286
+        },
+        {
+            "code": "287",
+            "value": "Employment and Placement Specialist",
+            "position": 287
+        },
+        {
+            "code": "288",
+            "value": "Employment Interviewer",
+            "position": 288
+        },
+        {
+            "code": "289",
+            "value": "Engine and Machine Assemblers",
+            "position": 289
+        },
+        {
+            "code": "290",
+            "value": "Engineering Managers",
+            "position": 290
+        },
+        {
+            "code": "291",
+            "value": "Engineering Professor",
+            "position": 291
+        },
+        {
+            "code": "292",
+            "value": "English Language and Literature Professor",
+            "position": 292
+        },
+        {
+            "code": "293",
+            "value": "Environmental Compliance Inspector",
+            "position": 293
+        },
+        {
+            "code": "294",
+            "value": "Environmental Disease Analyst",
+            "position": 294
+        },
+        {
+            "code": "295",
+            "value": "Environmental Engineer",
+            "position": 295
+        },
+        {
+            "code": "296",
+            "value": "Environmental Planner",
+            "position": 296
+        },
+        {
+            "code": "297",
+            "value": "Environmental Research Analyst",
+            "position": 297
+        },
+        {
+            "code": "298",
+            "value": "Environmental Science Technician",
+            "position": 298
+        },
+        {
+            "code": "299",
+            "value": "Environmental Science Professsor",
+            "position": 299
+        },
+        {
+            "code": "300",
+            "value": "Environmental Technician",
+            "position": 300
+        },
+        {
+            "code": "301",
+            "value": "Equal Opportunity Representative",
+            "position": 301
+        },
+        {
+            "code": "302",
+            "value": "Etchers and Engravers",
+            "position": 302
+        },
+        {
+            "code": "303",
+            "value": "Excavating Machine Operator",
+            "position": 303
+        },
+        {
+            "code": "304",
+            "value": "Excavating Supervisor",
+            "position": 304
+        },
+        {
+            "code": "305",
+            "value": "Executive Secretary",
+            "position": 305
+        },
+        {
+            "code": "306",
+            "value": "Exercise Physiologist",
+            "position": 306
+        },
+        {
+            "code": "307",
+            "value": "Exhibit Artist",
+            "position": 307
+        },
+        {
+            "code": "308",
+            "value": "Exhibit Designer",
+            "position": 308
+        },
+        {
+            "code": "309",
+            "value": "Experimental Psychologist",
+            "position": 309
+        },
+        {
+            "code": "310",
+            "value": "Explosives Worker",
+            "position": 310
+        },
+        {
+            "code": "311",
+            "value": "Export Agent",
+            "position": 311
+        },
+        {
+            "code": "312",
+            "value": "Fabric and Apparel Patternmakers",
+            "position": 312
+        },
+        {
+            "code": "313",
+            "value": "Facilities Planner",
+            "position": 313
+        },
+        {
+            "code": "314",
+            "value": "Factory Layout Engineer",
+            "position": 314
+        },
+        {
+            "code": "315",
+            "value": "Family Caseworker",
+            "position": 315
+        },
+        {
+            "code": "316",
+            "value": "Family Practitioner (MD)",
+            "position": 316
+        },
+        {
+            "code": "317",
+            "value": "Farm Equipment Mechanic",
+            "position": 317
+        },
+        {
+            "code": "318",
+            "value": "Farm Hand",
+            "position": 318
+        },
+        {
+            "code": "319",
+            "value": "Farm Labor Contractor",
+            "position": 319
+        },
+        {
+            "code": "320",
+            "value": "Farm Manager",
+            "position": 320
+        },
+        {
+            "code": "321",
+            "value": "Farm Products Purchasing Agent",
+            "position": 321
+        },
+        {
+            "code": "322",
+            "value": "Farmers and Ranchers",
+            "position": 322
+        },
+        {
+            "code": "323",
+            "value": "Fashion Artist",
+            "position": 323
+        },
+        {
+            "code": "324",
+            "value": "Fashion Coordinator",
+            "position": 324
+        },
+        {
+            "code": "325",
+            "value": "Fashion Designer",
+            "position": 325
+        },
+        {
+            "code": "326",
+            "value": "Fashion Model",
+            "position": 326
+        },
+        {
+            "code": "327",
+            "value": "Fence Installer",
+            "position": 327
+        },
+        {
+            "code": "328",
+            "value": "Field Contractor",
+            "position": 328
+        },
+        {
+            "code": "329",
+            "value": "Field Health Officer",
+            "position": 329
+        },
+        {
+            "code": "330",
+            "value": "File Clerk",
+            "position": 330
+        },
+        {
+            "code": "331",
+            "value": "Film Editor",
+            "position": 331
+        },
+        {
+            "code": "332",
+            "value": "Film Laboratory Technician",
+            "position": 332
+        },
+        {
+            "code": "333",
+            "value": "Finance Manager",
+            "position": 333
+        },
+        {
+            "code": "334",
+            "value": "Financial Aid Counselor",
+            "position": 334
+        },
+        {
+            "code": "335",
+            "value": "Financial Analyst",
+            "position": 335
+        },
+        {
+            "code": "336",
+            "value": "Financial Examiner",
+            "position": 336
+        },
+        {
+            "code": "337",
+            "value": "Financial Planner",
+            "position": 337
+        },
+        {
+            "code": "338",
+            "value": "Financial Services Sales Agent",
+            "position": 338
+        },
+        {
+            "code": "339",
+            "value": "Fine Artist",
+            "position": 339
+        },
+        {
+            "code": "340",
+            "value": "Fire Inspector",
+            "position": 340
+        },
+        {
+            "code": "341",
+            "value": "Fire Investigator",
+            "position": 341
+        },
+        {
+            "code": "342",
+            "value": "Fire Prevention Engineer",
+            "position": 342
+        },
+        {
+            "code": "343",
+            "value": "Fire Protection Engineer",
+            "position": 343
+        },
+        {
+            "code": "344",
+            "value": "Fire Protection Engineering Technician",
+            "position": 344
+        },
+        {
+            "code": "345",
+            "value": "Fish & Game Warden",
+            "position": 345
+        },
+        {
+            "code": "346",
+            "value": "Fish Hatchery Specialist",
+            "position": 346
+        },
+        {
+            "code": "347",
+            "value": "Fishery Worker Supervisor",
+            "position": 347
+        },
+        {
+            "code": "348",
+            "value": "Fitness Trainer",
+            "position": 348
+        },
+        {
+            "code": "349",
+            "value": "Flight Engineers",
+            "position": 349
+        },
+        {
+            "code": "350",
+            "value": "Floral Designer",
+            "position": 350
+        },
+        {
+            "code": "351",
+            "value": "Food & Drug Inspector",
+            "position": 351
+        },
+        {
+            "code": "352",
+            "value": "Food Batchmaker",
+            "position": 352
+        },
+        {
+            "code": "353",
+            "value": "Food Preparation Worker",
+            "position": 353
+        },
+        {
+            "code": "354",
+            "value": "Food Science Technicians",
+            "position": 354
+        },
+        {
+            "code": "355",
+            "value": "Food Technologist",
+            "position": 355
+        },
+        {
+            "code": "356",
+            "value": "Foreign Exchange Trader",
+            "position": 356
+        },
+        {
+            "code": "357",
+            "value": "Foreign Language Interpreter",
+            "position": 357
+        },
+        {
+            "code": "358",
+            "value": "Foreign Language Teacher",
+            "position": 358
+        },
+        {
+            "code": "359",
+            "value": "Foreign Language Translator",
+            "position": 359
+        },
+        {
+            "code": "360",
+            "value": "Foreign Service Officer",
+            "position": 360
+        },
+        {
+            "code": "361",
+            "value": "Foreign Service Peacekeeping Specialist",
+            "position": 361
+        },
+        {
+            "code": "362",
+            "value": "Foreign Student Adviser",
+            "position": 362
+        },
+        {
+            "code": "363",
+            "value": "Forensic Science Technicians",
+            "position": 363
+        },
+        {
+            "code": "364",
+            "value": "Forensics Psychologist",
+            "position": 364
+        },
+        {
+            "code": "365",
+            "value": "Forest and Conservation Technician",
+            "position": 365
+        },
+        {
+            "code": "366",
+            "value": "Forest Engineer",
+            "position": 366
+        },
+        {
+            "code": "367",
+            "value": "Forest Fire Prevention Supervisor",
+            "position": 367
+        },
+        {
+            "code": "368",
+            "value": "Forest Fire Inspector",
+            "position": 368
+        },
+        {
+            "code": "369",
+            "value": "Forestry and Conservation Professor",
+            "position": 369
+        },
+        {
+            "code": "370",
+            "value": "Forging Machine Operator",
+            "position": 370
+        },
+        {
+            "code": "371",
+            "value": "Forklift and Industrial Truck Operators",
+            "position": 371
+        },
+        {
+            "code": "372",
+            "value": "Fraud Investigator",
+            "position": 372
+        },
+        {
+            "code": "373",
+            "value": "Freight and Stock Handler",
+            "position": 373
+        },
+        {
+            "code": "374",
+            "value": "Fund Raiser",
+            "position": 374
+        },
+        {
+            "code": "375",
+            "value": "Funds Development Administrator",
+            "position": 375
+        },
+        {
+            "code": "376",
+            "value": "Funeral Attendant",
+            "position": 376
+        },
+        {
+            "code": "377",
+            "value": "Funeral Director",
+            "position": 377
+        },
+        {
+            "code": "378",
+            "value": "Furniture Designer",
+            "position": 378
+        },
+        {
+            "code": "379",
+            "value": "Furniture Finishers",
+            "position": 379
+        },
+        {
+            "code": "380",
+            "value": "Game Runner",
+            "position": 380
+        },
+        {
+            "code": "381",
+            "value": "Gas Plant Operator",
+            "position": 381
+        },
+        {
+            "code": "382",
+            "value": "General and Operations Managers",
+            "position": 382
+        },
+        {
+            "code": "383",
+            "value": "General Farmworkers",
+            "position": 383
+        },
+        {
+            "code": "384",
+            "value": "General Internists (MD)",
+            "position": 384
+        },
+        {
+            "code": "385",
+            "value": "Geography Professor",
+            "position": 385
+        },
+        {
+            "code": "386",
+            "value": "Geological Data Technicians",
+            "position": 386
+        },
+        {
+            "code": "387",
+            "value": "Geological Technician (Drafter)",
+            "position": 387
+        },
+        {
+            "code": "388",
+            "value": "Glass Blower",
+            "position": 388
+        },
+        {
+            "code": "389",
+            "value": "Gluing Machine Operators",
+            "position": 389
+        },
+        {
+            "code": "390",
+            "value": "Golf Course Superintendent",
+            "position": 390
+        },
+        {
+            "code": "391",
+            "value": "Government Budget Analyst",
+            "position": 391
+        },
+        {
+            "code": "392",
+            "value": "Government Property Inspectors",
+            "position": 392
+        },
+        {
+            "code": "393",
+            "value": "Government Service Executives",
+            "position": 393
+        },
+        {
+            "code": "394",
+            "value": "Graduate Teaching Assistant",
+            "position": 394
+        },
+        {
+            "code": "395",
+            "value": "Graphic Designer",
+            "position": 395
+        },
+        {
+            "code": "396",
+            "value": "Greenhouse and Nursery Manager",
+            "position": 396
+        },
+        {
+            "code": "397",
+            "value": "Gynecologist (MD)",
+            "position": 397
+        },
+        {
+            "code": "398",
+            "value": "Hand and Portable Tool Mechanic",
+            "position": 398
+        },
+        {
+            "code": "399",
+            "value": "Hand Sewer",
+            "position": 399
+        },
+        {
+            "code": "400",
+            "value": "Harbor Master",
+            "position": 400
+        },
+        {
+            "code": "401",
+            "value": "Harbor, Lake & Waterways Police",
+            "position": 401
+        },
+        {
+            "code": "402",
+            "value": "Hardwood Floor Finisher",
+            "position": 402
+        },
+        {
+            "code": "403",
+            "value": "Hazardous Materials Removal Worker",
+            "position": 403
+        },
+        {
+            "code": "404",
+            "value": "Hazardous Waste Management Analyst",
+            "position": 404
+        },
+        {
+            "code": "405",
+            "value": "Health Care Facilities Inspector",
+            "position": 405
+        },
+        {
+            "code": "406",
+            "value": "Health Case Manager",
+            "position": 406
+        },
+        {
+            "code": "407",
+            "value": "Health Educators",
+            "position": 407
+        },
+        {
+            "code": "408",
+            "value": "Health Psychologist",
+            "position": 408
+        },
+        {
+            "code": "409",
+            "value": "Hearing Officer",
+            "position": 409
+        },
+        {
+            "code": "410",
+            "value": "Heating, A/C, Refrigeration Technician",
+            "position": 410
+        },
+        {
+            "code": "411",
+            "value": "Heavy Equipment Mechanic",
+            "position": 411
+        },
+        {
+            "code": "412",
+            "value": "High School Administrator",
+            "position": 412
+        },
+        {
+            "code": "413",
+            "value": "High School Guidance Counselor",
+            "position": 413
+        },
+        {
+            "code": "414",
+            "value": "High School Teacher",
+            "position": 414
+        },
+        {
+            "code": "415",
+            "value": "Highway Maintenance Worker",
+            "position": 415
+        },
+        {
+            "code": "416",
+            "value": "Highway Patrol Pilot",
+            "position": 416
+        },
+        {
+            "code": "417",
+            "value": "Historic Site Administrator",
+            "position": 417
+        },
+        {
+            "code": "418",
+            "value": "Historical Archivist",
+            "position": 418
+        },
+        {
+            "code": "419",
+            "value": "History Professor",
+            "position": 419
+        },
+        {
+            "code": "420",
+            "value": "Home Appliance Installer",
+            "position": 420
+        },
+        {
+            "code": "421",
+            "value": "Home Appliance Repairer",
+            "position": 421
+        },
+        {
+            "code": "422",
+            "value": "Home Economics Teacher",
+            "position": 422
+        },
+        {
+            "code": "423",
+            "value": "Home Economist",
+            "position": 423
+        },
+        {
+            "code": "424",
+            "value": "Home Entertainment System Installer",
+            "position": 424
+        },
+        {
+            "code": "425",
+            "value": "Home Health Aide",
+            "position": 425
+        },
+        {
+            "code": "426",
+            "value": "Home Health Technician",
+            "position": 426
+        },
+        {
+            "code": "427",
+            "value": "Horticultural Worker Supervisor",
+            "position": 427
+        },
+        {
+            "code": "428",
+            "value": "Horticulture Therapist",
+            "position": 428
+        },
+        {
+            "code": "429",
+            "value": "Horticulturist (Vineyard)",
+            "position": 429
+        },
+        {
+            "code": "430",
+            "value": "Hospital Administrator",
+            "position": 430
+        },
+        {
+            "code": "431",
+            "value": "Hospital Nurse",
+            "position": 431
+        },
+        {
+            "code": "432",
+            "value": "Hosts and Hostesses",
+            "position": 432
+        },
+        {
+            "code": "433",
+            "value": "Hotel and Motel Desk Clerks",
+            "position": 433
+        },
+        {
+            "code": "434",
+            "value": "Hotel Convention/Events Coordinator",
+            "position": 434
+        },
+        {
+            "code": "435",
+            "value": "Hotel Manager",
+            "position": 435
+        },
+        {
+            "code": "436",
+            "value": "Housekeeping Supervisors",
+            "position": 436
+        },
+        {
+            "code": "437",
+            "value": "Human Factors Psychologist",
+            "position": 437
+        },
+        {
+            "code": "438",
+            "value": "Human Resources Management Advisor",
+            "position": 438
+        },
+        {
+            "code": "439",
+            "value": "Human Resources Management Consultant",
+            "position": 439
+        },
+        {
+            "code": "440",
+            "value": "Hydraulic Engineer",
+            "position": 440
+        },
+        {
+            "code": "441",
+            "value": "Immigration Inspector",
+            "position": 441
+        },
+        {
+            "code": "442",
+            "value": "Industrial Air Pollution Analyst",
+            "position": 442
+        },
+        {
+            "code": "443",
+            "value": "Industrial Arts Teacher",
+            "position": 443
+        },
+        {
+            "code": "444",
+            "value": "Industrial Designer",
+            "position": 444
+        },
+        {
+            "code": "445",
+            "value": "Industrial Engineer",
+            "position": 445
+        },
+        {
+            "code": "446",
+            "value": "Industrial Engineering Technician",
+            "position": 446
+        },
+        {
+            "code": "447",
+            "value": "Industrial Health Engineer",
+            "position": 447
+        },
+        {
+            "code": "448",
+            "value": "Industrial Hygienist",
+            "position": 448
+        },
+        {
+            "code": "449",
+            "value": "Industrial Machinery Mechanics",
+            "position": 449
+        },
+        {
+            "code": "450",
+            "value": "Industrial Relations Analyst",
+            "position": 450
+        },
+        {
+            "code": "451",
+            "value": "Industrial Relations Specialist",
+            "position": 451
+        },
+        {
+            "code": "452",
+            "value": "Industrial Therapist",
+            "position": 452
+        },
+        {
+            "code": "453",
+            "value": "Industrial Waste Inspector",
+            "position": 453
+        },
+        {
+            "code": "454",
+            "value": "Industrial-Organizational Psychologist",
+            "position": 454
+        },
+        {
+            "code": "455",
+            "value": "Infantry Officers",
+            "position": 455
+        },
+        {
+            "code": "456",
+            "value": "Instructional Coordinators",
+            "position": 456
+        },
+        {
+            "code": "457",
+            "value": "Instructor, Police-Canine Services",
+            "position": 457
+        },
+        {
+            "code": "458",
+            "value": "Instrument Technician",
+            "position": 458
+        },
+        {
+            "code": "459",
+            "value": "Insulation Installer",
+            "position": 459
+        },
+        {
+            "code": "460",
+            "value": "Insurance Adjuster",
+            "position": 460
+        },
+        {
+            "code": "461",
+            "value": "Insurance Agent",
+            "position": 461
+        },
+        {
+            "code": "462",
+            "value": "Insurance Appraiser (Auto Damage)",
+            "position": 462
+        },
+        {
+            "code": "463",
+            "value": "Insurance Claim Examiner",
+            "position": 463
+        },
+        {
+            "code": "464",
+            "value": "Insurance Claims Adjuster",
+            "position": 464
+        },
+        {
+            "code": "465",
+            "value": "Insurance Claims Clerks",
+            "position": 465
+        },
+        {
+            "code": "466",
+            "value": "Insurance Estate Planner",
+            "position": 466
+        },
+        {
+            "code": "467",
+            "value": "Insurance Lawyer",
+            "position": 467
+        },
+        {
+            "code": "468",
+            "value": "Insurance Policy Processing Clerk",
+            "position": 468
+        },
+        {
+            "code": "469",
+            "value": "Insurance Underwriter",
+            "position": 469
+        },
+        {
+            "code": "470",
+            "value": "Intelligence Specialist (Government)",
+            "position": 470
+        },
+        {
+            "code": "471",
+            "value": "Interior Designer",
+            "position": 471
+        },
+        {
+            "code": "472",
+            "value": "Internal Auditor",
+            "position": 472
+        },
+        {
+            "code": "473",
+            "value": "Interpreter for the Hearing Impaired",
+            "position": 473
+        },
+        {
+            "code": "474",
+            "value": "Irradiated-Fuel Handlers",
+            "position": 474
+        },
+        {
+            "code": "475",
+            "value": "Irrigation Engineer",
+            "position": 475
+        },
+        {
+            "code": "476",
+            "value": "IT Administrator (Information Technology)",
+            "position": 476
+        },
+        {
+            "code": "477",
+            "value": "Janitorial Supervisors",
+            "position": 477
+        },
+        {
+            "code": "478",
+            "value": "Job Analyst",
+            "position": 478
+        },
+        {
+            "code": "479",
+            "value": "Job Development Specialist",
+            "position": 479
+        },
+        {
+            "code": "480",
+            "value": "Job Printer (Graphic Arts)",
+            "position": 480
+        },
+        {
+            "code": "481",
+            "value": "Kindergarten Teacher",
+            "position": 481
+        },
+        {
+            "code": "482",
+            "value": "Labor Relations Advisor",
+            "position": 482
+        },
+        {
+            "code": "483",
+            "value": "Laboratory Tester",
+            "position": 483
+        },
+        {
+            "code": "484",
+            "value": "Land Surveyor",
+            "position": 484
+        },
+        {
+            "code": "485",
+            "value": "Landscape Architect",
+            "position": 485
+        },
+        {
+            "code": "486",
+            "value": "Landscape Contractor",
+            "position": 486
+        },
+        {
+            "code": "487",
+            "value": "Lathe Operator",
+            "position": 487
+        },
+        {
+            "code": "488",
+            "value": "Law Clerks",
+            "position": 488
+        },
+        {
+            "code": "489",
+            "value": "Law Professor",
+            "position": 489
+        },
+        {
+            "code": "490",
+            "value": "Legal Assistant",
+            "position": 490
+        },
+        {
+            "code": "491",
+            "value": "Legal Secretary",
+            "position": 491
+        },
+        {
+            "code": "492",
+            "value": "Legislative Assistant",
+            "position": 492
+        },
+        {
+            "code": "493",
+            "value": "Library Assistant",
+            "position": 493
+        },
+        {
+            "code": "494",
+            "value": "Library Consultant",
+            "position": 494
+        },
+        {
+            "code": "495",
+            "value": "Library Science Professor",
+            "position": 495
+        },
+        {
+            "code": "496",
+            "value": "Library Technician",
+            "position": 496
+        },
+        {
+            "code": "497",
+            "value": "License Clerk",
+            "position": 497
+        },
+        {
+            "code": "498",
+            "value": "Licensed Practical Nurse (LPN)",
+            "position": 498
+        },
+        {
+            "code": "499",
+            "value": "Livestock Commission Agent",
+            "position": 499
+        },
+        {
+            "code": "500",
+            "value": "Loan Counselor",
+            "position": 500
+        },
+        {
+            "code": "501",
+            "value": "Loan Interviewers and Clerks",
+            "position": 501
+        },
+        {
+            "code": "502",
+            "value": "Loan Officer",
+            "position": 502
+        },
+        {
+            "code": "503",
+            "value": "Locomotive Engineers",
+            "position": 503
+        },
+        {
+            "code": "504",
+            "value": "Log Graders and Scalers",
+            "position": 504
+        },
+        {
+            "code": "505",
+            "value": "Logging Tractor Operator",
+            "position": 505
+        },
+        {
+            "code": "506",
+            "value": "Logging Worker Supervisor",
+            "position": 506
+        },
+        {
+            "code": "507",
+            "value": "Machine Feeders and Offbearers",
+            "position": 507
+        },
+        {
+            "code": "508",
+            "value": "Mail Clerk",
+            "position": 508
+        },
+        {
+            "code": "509",
+            "value": "Mail Machine Operators",
+            "position": 509
+        },
+        {
+            "code": "510",
+            "value": "Maintenance Supervisor",
+            "position": 510
+        },
+        {
+            "code": "511",
+            "value": "Makeup Artists - Theatrical",
+            "position": 511
+        },
+        {
+            "code": "512",
+            "value": "Management Consultant (Analyst)",
+            "position": 512
+        },
+        {
+            "code": "513",
+            "value": "Manicurists and Pedicurists",
+            "position": 513
+        },
+        {
+            "code": "514",
+            "value": "Manual Arts Therapist",
+            "position": 514
+        },
+        {
+            "code": "515",
+            "value": "Mapping Technician",
+            "position": 515
+        },
+        {
+            "code": "516",
+            "value": "Marina Boat Charter Administrator",
+            "position": 516
+        },
+        {
+            "code": "517",
+            "value": "Marine and Aquatic Biologist",
+            "position": 517
+        },
+        {
+            "code": "518",
+            "value": "Marine Architect",
+            "position": 518
+        },
+        {
+            "code": "519",
+            "value": "Marine Cargo Surveyor",
+            "position": 519
+        },
+        {
+            "code": "520",
+            "value": "Marine Drafter",
+            "position": 520
+        },
+        {
+            "code": "521",
+            "value": "Marine Engineer",
+            "position": 521
+        },
+        {
+            "code": "522",
+            "value": "Marine Surveyor",
+            "position": 522
+        },
+        {
+            "code": "523",
+            "value": "Marine/Port Engineer",
+            "position": 523
+        },
+        {
+            "code": "524",
+            "value": "Market Research Analyst",
+            "position": 524
+        },
+        {
+            "code": "525",
+            "value": "Marketing Managers",
+            "position": 525
+        },
+        {
+            "code": "526",
+            "value": "Marking Clerk",
+            "position": 526
+        },
+        {
+            "code": "527",
+            "value": "Marriage and Family Therapists",
+            "position": 527
+        },
+        {
+            "code": "528",
+            "value": "Massage Therapist",
+            "position": 528
+        },
+        {
+            "code": "529",
+            "value": "Materials Engineer",
+            "position": 529
+        },
+        {
+            "code": "530",
+            "value": "Materials Inspector",
+            "position": 530
+        },
+        {
+            "code": "531",
+            "value": "Materials Scientist",
+            "position": 531
+        },
+        {
+            "code": "532",
+            "value": "Math Professor",
+            "position": 532
+        },
+        {
+            "code": "533",
+            "value": "Mathematical Technician",
+            "position": 533
+        },
+        {
+            "code": "534",
+            "value": "Meat Packers",
+            "position": 534
+        },
+        {
+            "code": "535",
+            "value": "Meat, Poultry, and Fish Trimmers",
+            "position": 535
+        },
+        {
+            "code": "536",
+            "value": "Mechanical Drafter",
+            "position": 536
+        },
+        {
+            "code": "537",
+            "value": "Mechanical Engineer",
+            "position": 537
+        },
+        {
+            "code": "538",
+            "value": "Mechanical Engineering Technician",
+            "position": 538
+        },
+        {
+            "code": "539",
+            "value": "Mechanical Inspector",
+            "position": 539
+        },
+        {
+            "code": "540",
+            "value": "Medical Administrative Assistant",
+            "position": 540
+        },
+        {
+            "code": "541",
+            "value": "Medical and Public Health Social Workers",
+            "position": 541
+        },
+        {
+            "code": "542",
+            "value": "Medical and Scientific Illustrator",
+            "position": 542
+        },
+        {
+            "code": "543",
+            "value": "Medical Appliance Technician",
+            "position": 543
+        },
+        {
+            "code": "544",
+            "value": "Medical Assistant",
+            "position": 544
+        },
+        {
+            "code": "545",
+            "value": "Medical Equipment Preparer",
+            "position": 545
+        },
+        {
+            "code": "546",
+            "value": "Medical Examiner/Coroner",
+            "position": 546
+        },
+        {
+            "code": "547",
+            "value": "Medical Insurance Claims Analyst",
+            "position": 547
+        },
+        {
+            "code": "548",
+            "value": "Medical Laboratory Technician",
+            "position": 548
+        },
+        {
+            "code": "549",
+            "value": "Medical Photographer",
+            "position": 549
+        },
+        {
+            "code": "550",
+            "value": "Medical Records Administrator",
+            "position": 550
+        },
+        {
+            "code": "551",
+            "value": "Medical Records Technician",
+            "position": 551
+        },
+        {
+            "code": "552",
+            "value": "Medical Secretary",
+            "position": 552
+        },
+        {
+            "code": "553",
+            "value": "Medical Technologist",
+            "position": 553
+        },
+        {
+            "code": "554",
+            "value": "Medical Transcriptionist",
+            "position": 554
+        },
+        {
+            "code": "555",
+            "value": "Mental Health Counselor",
+            "position": 555
+        },
+        {
+            "code": "556",
+            "value": "Mentally Retarded Students Teacher",
+            "position": 556
+        },
+        {
+            "code": "557",
+            "value": "Merchandise Displayer",
+            "position": 557
+        },
+        {
+            "code": "558",
+            "value": "Metal Casting Machine Operator",
+            "position": 558
+        },
+        {
+            "code": "559",
+            "value": "Metal Fabricator",
+            "position": 559
+        },
+        {
+            "code": "560",
+            "value": "Meter Mechanic",
+            "position": 560
+        },
+        {
+            "code": "561",
+            "value": "Middle School Administrator",
+            "position": 561
+        },
+        {
+            "code": "562",
+            "value": "Middle School Guidance Counselor",
+            "position": 562
+        },
+        {
+            "code": "563",
+            "value": "Middle School Teacher",
+            "position": 563
+        },
+        {
+            "code": "564",
+            "value": "Military Analyst",
+            "position": 564
+        },
+        {
+            "code": "565",
+            "value": "Military Officer",
+            "position": 565
+        },
+        {
+            "code": "566",
+            "value": "Military-Enlisted Personnel",
+            "position": 566
+        },
+        {
+            "code": "567",
+            "value": "Mill Worker",
+            "position": 567
+        },
+        {
+            "code": "568",
+            "value": "Mine Cutting Machine Operator",
+            "position": 568
+        },
+        {
+            "code": "569",
+            "value": "Mine Inspector",
+            "position": 569
+        },
+        {
+            "code": "570",
+            "value": "Mining Engineer",
+            "position": 570
+        },
+        {
+            "code": "571",
+            "value": "Mining Machine Operator",
+            "position": 571
+        },
+        {
+            "code": "572",
+            "value": "Mining Shovel Machine Operator",
+            "position": 572
+        },
+        {
+            "code": "573",
+            "value": "Missing Person Investigator",
+            "position": 573
+        },
+        {
+            "code": "574",
+            "value": "Missionary Worker (Foreign Country)",
+            "position": 574
+        },
+        {
+            "code": "575",
+            "value": "Model Maker",
+            "position": 575
+        },
+        {
+            "code": "576",
+            "value": "Model Makers, Metal and Plastic",
+            "position": 576
+        },
+        {
+            "code": "577",
+            "value": "Motion Picture Director",
+            "position": 577
+        },
+        {
+            "code": "578",
+            "value": "Motion Picture Projectionist",
+            "position": 578
+        },
+        {
+            "code": "579",
+            "value": "Motor Vehicle Inspector",
+            "position": 579
+        },
+        {
+            "code": "580",
+            "value": "Motorboat Mechanic",
+            "position": 580
+        },
+        {
+            "code": "581",
+            "value": "Motorcycle Mechanic",
+            "position": 581
+        },
+        {
+            "code": "582",
+            "value": "Municipal Fire Fighting Supervisor",
+            "position": 582
+        },
+        {
+            "code": "583",
+            "value": "Museum Curator",
+            "position": 583
+        },
+        {
+            "code": "584",
+            "value": "Museum Technicians and Conservators",
+            "position": 584
+        },
+        {
+            "code": "585",
+            "value": "Music Arrangers and Orchestrators",
+            "position": 585
+        },
+        {
+            "code": "586",
+            "value": "Music Director",
+            "position": 586
+        },
+        {
+            "code": "587",
+            "value": "Music Teacher",
+            "position": 587
+        },
+        {
+            "code": "588",
+            "value": "Music Therapist",
+            "position": 588
+        },
+        {
+            "code": "589",
+            "value": "Musical Instrument Tuner",
+            "position": 589
+        },
+        {
+            "code": "590",
+            "value": "Narcotics Investigator (Government)",
+            "position": 590
+        },
+        {
+            "code": "591",
+            "value": "New Accounts Clerk (Banking)",
+            "position": 591
+        },
+        {
+            "code": "592",
+            "value": "Newspaper Editor",
+            "position": 592
+        },
+        {
+            "code": "593",
+            "value": "Newspaper/Magazines Writer",
+            "position": 593
+        },
+        {
+            "code": "594",
+            "value": "Non-Retail Sales Supervisor",
+            "position": 594
+        },
+        {
+            "code": "595",
+            "value": "Nuclear Engineer",
+            "position": 595
+        },
+        {
+            "code": "596",
+            "value": "Nuclear Equipment Operation Technician",
+            "position": 596
+        },
+        {
+            "code": "597",
+            "value": "Nuclear Fuels Research Engineer",
+            "position": 597
+        },
+        {
+            "code": "598",
+            "value": "Nuclear Medicine Technologist",
+            "position": 598
+        },
+        {
+            "code": "599",
+            "value": "Nuclear Monitoring Technician",
+            "position": 599
+        },
+        {
+            "code": "600",
+            "value": "Nuclear Power Reactor Operator",
+            "position": 600
+        },
+        {
+            "code": "601",
+            "value": "Nuclear Technicians",
+            "position": 601
+        },
+        {
+            "code": "602",
+            "value": "Numerical Tool Programmer",
+            "position": 602
+        },
+        {
+            "code": "603",
+            "value": "Nurse Practitioner",
+            "position": 603
+        },
+        {
+            "code": "604",
+            "value": "Nurse's Aide",
+            "position": 604
+        },
+        {
+            "code": "605",
+            "value": "Nursery Workers",
+            "position": 605
+        },
+        {
+            "code": "606",
+            "value": "Nursing Professor",
+            "position": 606
+        },
+        {
+            "code": "607",
+            "value": "Obstetrician (MD)",
+            "position": 607
+        },
+        {
+            "code": "608",
+            "value": "Occupational Analyst",
+            "position": 608
+        },
+        {
+            "code": "609",
+            "value": "Occupational Physician (MD)",
+            "position": 609
+        },
+        {
+            "code": "610",
+            "value": "Occupational Safety & Health Inspector",
+            "position": 610
+        },
+        {
+            "code": "611",
+            "value": "Occupational Therapist",
+            "position": 611
+        },
+        {
+            "code": "612",
+            "value": "Occupational Therapy Assistant",
+            "position": 612
+        },
+        {
+            "code": "613",
+            "value": "Oceanographic Assistant",
+            "position": 613
+        },
+        {
+            "code": "614",
+            "value": "Office Clerk",
+            "position": 614
+        },
+        {
+            "code": "615",
+            "value": "Office Machine Mechanic",
+            "position": 615
+        },
+        {
+            "code": "616",
+            "value": "Office Supervisor",
+            "position": 616
+        },
+        {
+            "code": "617",
+            "value": "Offset Press Operators",
+            "position": 617
+        },
+        {
+            "code": "618",
+            "value": "Operating Engineers",
+            "position": 618
+        },
+        {
+            "code": "619",
+            "value": "Operations Management Analyst",
+            "position": 619
+        },
+        {
+            "code": "620",
+            "value": "Ophthalmic Laboratory Technician",
+            "position": 620
+        },
+        {
+            "code": "621",
+            "value": "Ophthalmologist (MD)",
+            "position": 621
+        },
+        {
+            "code": "622",
+            "value": "Oral and Maxillofacial Surgeons",
+            "position": 622
+        },
+        {
+            "code": "623",
+            "value": "Order Clerk",
+            "position": 623
+        },
+        {
+            "code": "624",
+            "value": "Order Fillers, Wholesale and Retail Sales",
+            "position": 624
+        },
+        {
+            "code": "625",
+            "value": "Ordinary Seamen",
+            "position": 625
+        },
+        {
+            "code": "626",
+            "value": "Ornamental-Metalwork Designer",
+            "position": 626
+        },
+        {
+            "code": "627",
+            "value": "Orthodontic Assistant",
+            "position": 627
+        },
+        {
+            "code": "628",
+            "value": "Orthodontic Laboratory Technician",
+            "position": 628
+        },
+        {
+            "code": "629",
+            "value": "Orthodontist (MD)",
+            "position": 629
+        },
+        {
+            "code": "630",
+            "value": "Outdoor Education Teacher",
+            "position": 630
+        },
+        {
+            "code": "631",
+            "value": "Overhead Door Installer",
+            "position": 631
+        },
+        {
+            "code": "632",
+            "value": "Package Designer",
+            "position": 632
+        },
+        {
+            "code": "633",
+            "value": "Packaging Machine Operator",
+            "position": 633
+        },
+        {
+            "code": "634",
+            "value": "Packers and Packagers, Hand",
+            "position": 634
+        },
+        {
+            "code": "635",
+            "value": "Painter (Industrial)",
+            "position": 635
+        },
+        {
+            "code": "636",
+            "value": "Painters, Construction and Maintenance",
+            "position": 636
+        },
+        {
+            "code": "637",
+            "value": "Painters, Transportation Equipment",
+            "position": 637
+        },
+        {
+            "code": "638",
+            "value": "Park Naturalist",
+            "position": 638
+        },
+        {
+            "code": "639",
+            "value": "Parking Enforcement Officer",
+            "position": 639
+        },
+        {
+            "code": "640",
+            "value": "Parking Lot Attendant",
+            "position": 640
+        },
+        {
+            "code": "641",
+            "value": "Parole Officer",
+            "position": 641
+        },
+        {
+            "code": "642",
+            "value": "Parts Salesperson",
+            "position": 642
+        },
+        {
+            "code": "643",
+            "value": "Paste-Up Worker (Graphic Arts)",
+            "position": 643
+        },
+        {
+            "code": "644",
+            "value": "Patent Agent",
+            "position": 644
+        },
+        {
+            "code": "645",
+            "value": "Patent Lawyer",
+            "position": 645
+        },
+        {
+            "code": "646",
+            "value": "Pathologist (MD)",
+            "position": 646
+        },
+        {
+            "code": "647",
+            "value": "Payroll and Timekeeping Clerks",
+            "position": 647
+        },
+        {
+            "code": "648",
+            "value": "PBX Installer and Repairer",
+            "position": 648
+        },
+        {
+            "code": "649",
+            "value": "Peace Corps Worker (Volunteer)",
+            "position": 649
+        },
+        {
+            "code": "650",
+            "value": "Pediatric Dentist",
+            "position": 650
+        },
+        {
+            "code": "651",
+            "value": "Pediatrician (MD)",
+            "position": 651
+        },
+        {
+            "code": "652",
+            "value": "Personal Service Supervisor",
+            "position": 652
+        },
+        {
+            "code": "653",
+            "value": "Personnel Administrator",
+            "position": 653
+        },
+        {
+            "code": "654",
+            "value": "Personnel Assistant",
+            "position": 654
+        },
+        {
+            "code": "655",
+            "value": "Personnel Recruiter",
+            "position": 655
+        },
+        {
+            "code": "656",
+            "value": "Pest Control Workers",
+            "position": 656
+        },
+        {
+            "code": "657",
+            "value": "Pesticide Handlers",
+            "position": 657
+        },
+        {
+            "code": "658",
+            "value": "Petroleum Engineer",
+            "position": 658
+        },
+        {
+            "code": "659",
+            "value": "Petroleum Geologist",
+            "position": 659
+        },
+        {
+            "code": "660",
+            "value": "Petroleum Laboratory Assistant",
+            "position": 660
+        },
+        {
+            "code": "661",
+            "value": "Petroleum Refinery Operator",
+            "position": 661
+        },
+        {
+            "code": "662",
+            "value": "Petroleum Technician",
+            "position": 662
+        },
+        {
+            "code": "663",
+            "value": "Pharmacy Aides",
+            "position": 663
+        },
+        {
+            "code": "664",
+            "value": "Pharmacy Technician",
+            "position": 664
+        },
+        {
+            "code": "665",
+            "value": "Philosophy and Religion Professor",
+            "position": 665
+        },
+        {
+            "code": "666",
+            "value": "Photo-Optics Technician",
+            "position": 666
+        },
+        {
+            "code": "667",
+            "value": "Photoengravers (Graphic Arts)",
+            "position": 667
+        },
+        {
+            "code": "668",
+            "value": "Photogrammetric Engineer",
+            "position": 668
+        },
+        {
+            "code": "669",
+            "value": "Photographic Equipment Mechanic",
+            "position": 669
+        },
+        {
+            "code": "670",
+            "value": "Photographic Process Workers",
+            "position": 670
+        },
+        {
+            "code": "671",
+            "value": "Physical Education Instructor",
+            "position": 671
+        },
+        {
+            "code": "672",
+            "value": "Physical Therapist",
+            "position": 672
+        },
+        {
+            "code": "673",
+            "value": "Physical Therapist Aides",
+            "position": 673
+        },
+        {
+            "code": "674",
+            "value": "Physical Therapy Assistant",
+            "position": 674
+        },
+        {
+            "code": "675",
+            "value": "Physician's Assistant (PA)",
+            "position": 675
+        },
+        {
+            "code": "676",
+            "value": "Physician's Office Nurse",
+            "position": 676
+        },
+        {
+            "code": "677",
+            "value": "Physics Professor",
+            "position": 677
+        },
+        {
+            "code": "678",
+            "value": "Pilot (Commercial Airlines)",
+            "position": 678
+        },
+        {
+            "code": "679",
+            "value": "Plant Breeder",
+            "position": 679
+        },
+        {
+            "code": "680",
+            "value": "Plant Manager (Manufacturing)",
+            "position": 680
+        },
+        {
+            "code": "681",
+            "value": "Plasterers and Stucco Masons",
+            "position": 681
+        },
+        {
+            "code": "682",
+            "value": "Plastic Surgeon",
+            "position": 682
+        },
+        {
+            "code": "683",
+            "value": "Platemakers (Graphic Arts)",
+            "position": 683
+        },
+        {
+            "code": "684",
+            "value": "Plumber (Plumbing Contractor)",
+            "position": 684
+        },
+        {
+            "code": "685",
+            "value": "Poets and Lyricists",
+            "position": 685
+        },
+        {
+            "code": "686",
+            "value": "Police and Detectives Supervisor",
+            "position": 686
+        },
+        {
+            "code": "687",
+            "value": "Police Artist",
+            "position": 687
+        },
+        {
+            "code": "688",
+            "value": "Police Identification and Records Officers",
+            "position": 688
+        },
+        {
+            "code": "689",
+            "value": "Police Officer",
+            "position": 689
+        },
+        {
+            "code": "690",
+            "value": "Political Science Professor",
+            "position": 690
+        },
+        {
+            "code": "691",
+            "value": "Political Scientist",
+            "position": 691
+        },
+        {
+            "code": "692",
+            "value": "Postal Service Clerks",
+            "position": 692
+        },
+        {
+            "code": "693",
+            "value": "Postal Service Mail Carriers",
+            "position": 693
+        },
+        {
+            "code": "694",
+            "value": "Postal Service Mail Sorter",
+            "position": 694
+        },
+        {
+            "code": "695",
+            "value": "Postmasters and Mail Superintendents",
+            "position": 695
+        },
+        {
+            "code": "696",
+            "value": "Power Plant Operators",
+            "position": 696
+        },
+        {
+            "code": "697",
+            "value": "Power-Line Installer and Mechanic",
+            "position": 697
+        },
+        {
+            "code": "698",
+            "value": "Precision Devices Inspectors and Testers",
+            "position": 698
+        },
+        {
+            "code": "699",
+            "value": "Preschool Administrator",
+            "position": 699
+        },
+        {
+            "code": "700",
+            "value": "Preschool Teacher",
+            "position": 700
+        },
+        {
+            "code": "701",
+            "value": "Pressing Machine Operator",
+            "position": 701
+        },
+        {
+            "code": "702",
+            "value": "Pressure Vessel Inspectors",
+            "position": 702
+        },
+        {
+            "code": "703",
+            "value": "Printing/Graphic Arts Reproduction Technician",
+            "position": 703
+        },
+        {
+            "code": "704",
+            "value": "Printmaker (Artist)",
+            "position": 704
+        },
+        {
+            "code": "705",
+            "value": "Private Detectives and Investigators",
+            "position": 705
+        },
+        {
+            "code": "706",
+            "value": "Private Nurse",
+            "position": 706
+        },
+        {
+            "code": "707",
+            "value": "Private Sector Executives",
+            "position": 707
+        },
+        {
+            "code": "708",
+            "value": "Probate Lawyer",
+            "position": 708
+        },
+        {
+            "code": "709",
+            "value": "Probation Officer",
+            "position": 709
+        },
+        {
+            "code": "710",
+            "value": "Procurement Clerks",
+            "position": 710
+        },
+        {
+            "code": "711",
+            "value": "Product Planner",
+            "position": 711
+        },
+        {
+            "code": "712",
+            "value": "Product Safety Engineer",
+            "position": 712
+        },
+        {
+            "code": "713",
+            "value": "Production Planner",
+            "position": 713
+        },
+        {
+            "code": "714",
+            "value": "Production, Planning, and Expediting Clerks",
+            "position": 714
+        },
+        {
+            "code": "715",
+            "value": "Professional Sports Scout",
+            "position": 715
+        },
+        {
+            "code": "716",
+            "value": "Proofreaders and Copy Markers",
+            "position": 716
+        },
+        {
+            "code": "717",
+            "value": "Property Accountant",
+            "position": 717
+        },
+        {
+            "code": "718",
+            "value": "Property Assessor",
+            "position": 718
+        },
+        {
+            "code": "719",
+            "value": "Property Managers",
+            "position": 719
+        },
+        {
+            "code": "720",
+            "value": "Props and Lighting Technicians",
+            "position": 720
+        },
+        {
+            "code": "721",
+            "value": "Prosthetic Technician",
+            "position": 721
+        },
+        {
+            "code": "722",
+            "value": "Psychiatric Aide",
+            "position": 722
+        },
+        {
+            "code": "723",
+            "value": "Psychiatric Technician",
+            "position": 723
+        },
+        {
+            "code": "724",
+            "value": "Psychiatrist (MD)",
+            "position": 724
+        },
+        {
+            "code": "725",
+            "value": "Psychology Professor",
+            "position": 725
+        },
+        {
+            "code": "726",
+            "value": "Public Health Service Officer",
+            "position": 726
+        },
+        {
+            "code": "727",
+            "value": "Public Relations Manager",
+            "position": 727
+        },
+        {
+            "code": "728",
+            "value": "Public Relations Specialist",
+            "position": 728
+        },
+        {
+            "code": "729",
+            "value": "Public Transportation Inspector",
+            "position": 729
+        },
+        {
+            "code": "730",
+            "value": "Publications Editor",
+            "position": 730
+        },
+        {
+            "code": "731",
+            "value": "Purchasing Agent",
+            "position": 731
+        },
+        {
+            "code": "732",
+            "value": "Purchasing Manager",
+            "position": 732
+        },
+        {
+            "code": "733",
+            "value": "Quality Control Coordinator",
+            "position": 733
+        },
+        {
+            "code": "734",
+            "value": "Quality Control Engineer",
+            "position": 734
+        },
+        {
+            "code": "735",
+            "value": "Quality Control Inspector",
+            "position": 735
+        },
+        {
+            "code": "736",
+            "value": "Quality Control Technician",
+            "position": 736
+        },
+        {
+            "code": "737",
+            "value": "Quarry Worker",
+            "position": 737
+        },
+        {
+            "code": "738",
+            "value": "Radar and Sonar Technicians",
+            "position": 738
+        },
+        {
+            "code": "739",
+            "value": "Radiation Protection Engineer",
+            "position": 739
+        },
+        {
+            "code": "740",
+            "value": "Radiation Therapists",
+            "position": 740
+        },
+        {
+            "code": "741",
+            "value": "Radio & TV Announcer",
+            "position": 741
+        },
+        {
+            "code": "742",
+            "value": "Radio & TV News Commentator",
+            "position": 742
+        },
+        {
+            "code": "743",
+            "value": "Radio & TV Newscaster",
+            "position": 743
+        },
+        {
+            "code": "744",
+            "value": "Radio & TV Producer",
+            "position": 744
+        },
+        {
+            "code": "745",
+            "value": "Radio & TV Program Director",
+            "position": 745
+        },
+        {
+            "code": "746",
+            "value": "Radio & TV Sports Announcer",
+            "position": 746
+        },
+        {
+            "code": "747",
+            "value": "Radio & TV Station Administrator",
+            "position": 747
+        },
+        {
+            "code": "748",
+            "value": "Radio & TV Talk Show Host",
+            "position": 748
+        },
+        {
+            "code": "749",
+            "value": "Radio Mechanics",
+            "position": 749
+        },
+        {
+            "code": "750",
+            "value": "Radio Operators",
+            "position": 750
+        },
+        {
+            "code": "751",
+            "value": "Radiologic Technicians",
+            "position": 751
+        },
+        {
+            "code": "752",
+            "value": "Radiologic Technologist",
+            "position": 752
+        },
+        {
+            "code": "753",
+            "value": "Radiologist (MD)",
+            "position": 753
+        },
+        {
+            "code": "754",
+            "value": "Rail Yard Engineers",
+            "position": 754
+        },
+        {
+            "code": "755",
+            "value": "Railroad Conductors and Yardmasters",
+            "position": 755
+        },
+        {
+            "code": "756",
+            "value": "Railroad Engineer",
+            "position": 756
+        },
+        {
+            "code": "757",
+            "value": "Railroad Inspector",
+            "position": 757
+        },
+        {
+            "code": "758",
+            "value": "Range Manager",
+            "position": 758
+        },
+        {
+            "code": "759",
+            "value": "Real Estate Appraiser",
+            "position": 759
+        },
+        {
+            "code": "760",
+            "value": "Real Estate Assessor",
+            "position": 760
+        },
+        {
+            "code": "761",
+            "value": "Real Estate Broker",
+            "position": 761
+        },
+        {
+            "code": "762",
+            "value": "Real Estate Lawyer",
+            "position": 762
+        },
+        {
+            "code": "763",
+            "value": "Real Estate Sales Agents",
+            "position": 763
+        },
+        {
+            "code": "764",
+            "value": "Recreation Leader",
+            "position": 764
+        },
+        {
+            "code": "765",
+            "value": "Recreational Protective Service Worker",
+            "position": 765
+        },
+        {
+            "code": "766",
+            "value": "Recreational Therapist",
+            "position": 766
+        },
+        {
+            "code": "767",
+            "value": "Recreational Vehicle Mechanic",
+            "position": 767
+        },
+        {
+            "code": "768",
+            "value": "Referee / Umpire",
+            "position": 768
+        },
+        {
+            "code": "769",
+            "value": "Refuse and Recyclable Material Collectors",
+            "position": 769
+        },
+        {
+            "code": "770",
+            "value": "Registrar Administrator",
+            "position": 770
+        },
+        {
+            "code": "771",
+            "value": "Reliability Engineer",
+            "position": 771
+        },
+        {
+            "code": "772",
+            "value": "Religious Institution Education Coordinator",
+            "position": 772
+        },
+        {
+            "code": "773",
+            "value": "Reservation Ticket Agent",
+            "position": 773
+        },
+        {
+            "code": "774",
+            "value": "Residence Counselor",
+            "position": 774
+        },
+        {
+            "code": "775",
+            "value": "Resource Recovery Engineer",
+            "position": 775
+        },
+        {
+            "code": "776",
+            "value": "Resource Teacher",
+            "position": 776
+        },
+        {
+            "code": "777",
+            "value": "Respiratory Care Technician",
+            "position": 777
+        },
+        {
+            "code": "778",
+            "value": "Respiratory Therapist",
+            "position": 778
+        },
+        {
+            "code": "779",
+            "value": "Respiratory Therapy Technicians",
+            "position": 779
+        },
+        {
+            "code": "780",
+            "value": "Restaurant Food Coordinator",
+            "position": 780
+        },
+        {
+            "code": "781",
+            "value": "Restaurant Manager",
+            "position": 781
+        },
+        {
+            "code": "782",
+            "value": "Retail Buyer",
+            "position": 782
+        },
+        {
+            "code": "783",
+            "value": "Retail Customer Service Representative",
+            "position": 783
+        },
+        {
+            "code": "784",
+            "value": "Retail Inventory Control Analyst",
+            "position": 784
+        },
+        {
+            "code": "785",
+            "value": "Retail Sales Department Supervisor",
+            "position": 785
+        },
+        {
+            "code": "786",
+            "value": "Retail Salespersons",
+            "position": 786
+        },
+        {
+            "code": "787",
+            "value": "Retail Store Manager",
+            "position": 787
+        },
+        {
+            "code": "788",
+            "value": "Revenue Agent (Government)",
+            "position": 788
+        },
+        {
+            "code": "789",
+            "value": "Safety Inspector",
+            "position": 789
+        },
+        {
+            "code": "790",
+            "value": "Sales Engineers",
+            "position": 790
+        },
+        {
+            "code": "791",
+            "value": "Sales Floor Stock Clerk",
+            "position": 791
+        },
+        {
+            "code": "792",
+            "value": "Sales Managers",
+            "position": 792
+        },
+        {
+            "code": "793",
+            "value": "Sales Promoter",
+            "position": 793
+        },
+        {
+            "code": "794",
+            "value": "Sales Representative (Aircraft)",
+            "position": 794
+        },
+        {
+            "code": "795",
+            "value": "Sales Representative (Chemicals & Drugs)",
+            "position": 795
+        },
+        {
+            "code": "796",
+            "value": "Sales Representative (Computers)",
+            "position": 796
+        },
+        {
+            "code": "797",
+            "value": "Sales Representative (Graphic Arts)",
+            "position": 797
+        },
+        {
+            "code": "798",
+            "value": "Sales Representative (Hotel Furnishings)",
+            "position": 798
+        },
+        {
+            "code": "799",
+            "value": "Sales Representative (Medical Equipment)",
+            "position": 799
+        },
+        {
+            "code": "800",
+            "value": "Sales Representative (Printed Advertising)",
+            "position": 800
+        },
+        {
+            "code": "801",
+            "value": "Sales Representative (Radio & TV Time)",
+            "position": 801
+        },
+        {
+            "code": "802",
+            "value": "Sales Representative (Telecommunications)",
+            "position": 802
+        },
+        {
+            "code": "803",
+            "value": "Sales Representative (Teleconferencing)",
+            "position": 803
+        },
+        {
+            "code": "804",
+            "value": "Sales Representative ( Education Programs)",
+            "position": 804
+        },
+        {
+            "code": "805",
+            "value": "Sales Representatives (Agricultural Products)",
+            "position": 805
+        },
+        {
+            "code": "806",
+            "value": "Sales Representatives (Instruments)",
+            "position": 806
+        },
+        {
+            "code": "807",
+            "value": "Sales Representatives (Mechanical Equipment)",
+            "position": 807
+        },
+        {
+            "code": "808",
+            "value": "Sales Representitive (Psychological Tests)",
+            "position": 808
+        },
+        {
+            "code": "809",
+            "value": "Sanitary Engineer",
+            "position": 809
+        },
+        {
+            "code": "810",
+            "value": "Sawing Machine Operator",
+            "position": 810
+        },
+        {
+            "code": "811",
+            "value": "Scanner Operators",
+            "position": 811
+        },
+        {
+            "code": "812",
+            "value": "School Nurse",
+            "position": 812
+        },
+        {
+            "code": "813",
+            "value": "School Plant Consultant",
+            "position": 813
+        },
+        {
+            "code": "814",
+            "value": "School Psychologist",
+            "position": 814
+        },
+        {
+            "code": "815",
+            "value": "Scientific Linguist",
+            "position": 815
+        },
+        {
+            "code": "816",
+            "value": "Scientific Photographer",
+            "position": 816
+        },
+        {
+            "code": "817",
+            "value": "Screen Printing Machine Operators",
+            "position": 817
+        },
+        {
+            "code": "818",
+            "value": "Screen Writer",
+            "position": 818
+        },
+        {
+            "code": "819",
+            "value": "Script Editor",
+            "position": 819
+        },
+        {
+            "code": "820",
+            "value": "Securities Broker",
+            "position": 820
+        },
+        {
+            "code": "821",
+            "value": "Security and Fire Alarm Systems Installers",
+            "position": 821
+        },
+        {
+            "code": "822",
+            "value": "Security Guard",
+            "position": 822
+        },
+        {
+            "code": "823",
+            "value": "Self-Enrichment Education Teachers",
+            "position": 823
+        },
+        {
+            "code": "824",
+            "value": "Septic Tank and Sewer Servicers",
+            "position": 824
+        },
+        {
+            "code": "825",
+            "value": "Service Station Attendants",
+            "position": 825
+        },
+        {
+            "code": "826",
+            "value": "Set Designer",
+            "position": 826
+        },
+        {
+            "code": "827",
+            "value": "Set Illustrator",
+            "position": 827
+        },
+        {
+            "code": "828",
+            "value": "Sewing Machine Operators",
+            "position": 828
+        },
+        {
+            "code": "829",
+            "value": "Sheet Metal Workers",
+            "position": 829
+        },
+        {
+            "code": "830",
+            "value": "Ship Carpenters and Joiners",
+            "position": 830
+        },
+        {
+            "code": "831",
+            "value": "Ship Engineers",
+            "position": 831
+        },
+        {
+            "code": "832",
+            "value": "Ship Master",
+            "position": 832
+        },
+        {
+            "code": "833",
+            "value": "Ship Mate",
+            "position": 833
+        },
+        {
+            "code": "834",
+            "value": "Ship Pilot",
+            "position": 834
+        },
+        {
+            "code": "835",
+            "value": "Shipping, Receiving, and Traffic Clerks",
+            "position": 835
+        },
+        {
+            "code": "836",
+            "value": "Shoe Machine Operators",
+            "position": 836
+        },
+        {
+            "code": "837",
+            "value": "Signal Switch Repairers",
+            "position": 837
+        },
+        {
+            "code": "838",
+            "value": "Skin Care Specialists",
+            "position": 838
+        },
+        {
+            "code": "839",
+            "value": "Small Engine Mechanics",
+            "position": 839
+        },
+        {
+            "code": "840",
+            "value": "Social and Community Service Managers",
+            "position": 840
+        },
+        {
+            "code": "841",
+            "value": "Social and Human Service Assistants",
+            "position": 841
+        },
+        {
+            "code": "842",
+            "value": "Social Psychologist",
+            "position": 842
+        },
+        {
+            "code": "843",
+            "value": "Social Science Research Assistants",
+            "position": 843
+        },
+        {
+            "code": "844",
+            "value": "Social Service Volunteer",
+            "position": 844
+        },
+        {
+            "code": "845",
+            "value": "Social Welfare Administrator",
+            "position": 845
+        },
+        {
+            "code": "846",
+            "value": "Social Work Professor",
+            "position": 846
+        },
+        {
+            "code": "847",
+            "value": "Social Worker",
+            "position": 847
+        },
+        {
+            "code": "848",
+            "value": "Sociology Professor",
+            "position": 848
+        },
+        {
+            "code": "849",
+            "value": "Soil Conservation Technician",
+            "position": 849
+        },
+        {
+            "code": "850",
+            "value": "Soil Conservationist",
+            "position": 850
+        },
+        {
+            "code": "851",
+            "value": "Soil Engineer",
+            "position": 851
+        },
+        {
+            "code": "852",
+            "value": "Soil Scientist",
+            "position": 852
+        },
+        {
+            "code": "853",
+            "value": "Solar Energy Systems Designer",
+            "position": 853
+        },
+        {
+            "code": "854",
+            "value": "Solid Waste Disposal Administrator",
+            "position": 854
+        },
+        {
+            "code": "855",
+            "value": "Sound Engineering Technicians",
+            "position": 855
+        },
+        {
+            "code": "856",
+            "value": "Special Education Administrator",
+            "position": 856
+        },
+        {
+            "code": "857",
+            "value": "Special Forces",
+            "position": 857
+        },
+        {
+            "code": "858",
+            "value": "Special Forces Officers",
+            "position": 858
+        },
+        {
+            "code": "859",
+            "value": "Speech Pathologist",
+            "position": 859
+        },
+        {
+            "code": "860",
+            "value": "Speech Writer",
+            "position": 860
+        },
+        {
+            "code": "861",
+            "value": "Sport Psychologist",
+            "position": 861
+        },
+        {
+            "code": "862",
+            "value": "Sport's/Entertainment Agent (Manager)",
+            "position": 862
+        },
+        {
+            "code": "863",
+            "value": "Sports Agent",
+            "position": 863
+        },
+        {
+            "code": "864",
+            "value": "Sports Events Business Manager",
+            "position": 864
+        },
+        {
+            "code": "865",
+            "value": "Sports Physician (Orthopedist)",
+            "position": 865
+        },
+        {
+            "code": "866",
+            "value": "Sportswriter (Journalist)",
+            "position": 866
+        },
+        {
+            "code": "867",
+            "value": "Stained Glass Artist",
+            "position": 867
+        },
+        {
+            "code": "868",
+            "value": "Standards Engineer",
+            "position": 868
+        },
+        {
+            "code": "869",
+            "value": "Statement Clerks",
+            "position": 869
+        },
+        {
+            "code": "870",
+            "value": "Stationary Engineers",
+            "position": 870
+        },
+        {
+            "code": "871",
+            "value": "Statistical Assistants",
+            "position": 871
+        },
+        {
+            "code": "872",
+            "value": "Steel Workers",
+            "position": 872
+        },
+        {
+            "code": "873",
+            "value": "Storage and Distribution Manager",
+            "position": 873
+        },
+        {
+            "code": "874",
+            "value": "Stress Analyst Engineer",
+            "position": 874
+        },
+        {
+            "code": "875",
+            "value": "Structural Drafter",
+            "position": 875
+        },
+        {
+            "code": "876",
+            "value": "Structural Engineer",
+            "position": 876
+        },
+        {
+            "code": "877",
+            "value": "Student Admissions Administrator",
+            "position": 877
+        },
+        {
+            "code": "878",
+            "value": "Student Affairs Administrator",
+            "position": 878
+        },
+        {
+            "code": "879",
+            "value": "Student Financial Aid Administrator",
+            "position": 879
+        },
+        {
+            "code": "880",
+            "value": "Substance Abuse Counselor",
+            "position": 880
+        },
+        {
+            "code": "881",
+            "value": "Subway and Streetcar Conductor",
+            "position": 881
+        },
+        {
+            "code": "882",
+            "value": "Surgeons (MD)",
+            "position": 882
+        },
+        {
+            "code": "883",
+            "value": "Surgical Technician/Technologist",
+            "position": 883
+        },
+        {
+            "code": "884",
+            "value": "Survey Researchers",
+            "position": 884
+        },
+        {
+            "code": "885",
+            "value": "Surveying Technicians",
+            "position": 885
+        },
+        {
+            "code": "886",
+            "value": "Switchboard Operator",
+            "position": 886
+        },
+        {
+            "code": "887",
+            "value": "Systems Accountant",
+            "position": 887
+        },
+        {
+            "code": "888",
+            "value": "Systems Analyst, Data Processing",
+            "position": 888
+        },
+        {
+            "code": "889",
+            "value": "Tax Accountant",
+            "position": 889
+        },
+        {
+            "code": "890",
+            "value": "Tax Auditor",
+            "position": 890
+        },
+        {
+            "code": "891",
+            "value": "Tax Collector",
+            "position": 891
+        },
+        {
+            "code": "892",
+            "value": "Tax Examiner",
+            "position": 892
+        },
+        {
+            "code": "893",
+            "value": "Tax Lawyer",
+            "position": 893
+        },
+        {
+            "code": "894",
+            "value": "Tax Preparer",
+            "position": 894
+        },
+        {
+            "code": "895",
+            "value": "Taxi Drivers and Chauffeurs",
+            "position": 895
+        },
+        {
+            "code": "896",
+            "value": "Teacher of the Blind",
+            "position": 896
+        },
+        {
+            "code": "897",
+            "value": "Teachers Aide",
+            "position": 897
+        },
+        {
+            "code": "898",
+            "value": "Team Assemblers",
+            "position": 898
+        },
+        {
+            "code": "899",
+            "value": "Technical & Scientific Publications Editor",
+            "position": 899
+        },
+        {
+            "code": "900",
+            "value": "Technical Directors/Managers",
+            "position": 900
+        },
+        {
+            "code": "901",
+            "value": "Technical Illustrator",
+            "position": 901
+        },
+        {
+            "code": "902",
+            "value": "Technical Publications Writer",
+            "position": 902
+        },
+        {
+            "code": "903",
+            "value": "Technological Espionage Intelligence Agent",
+            "position": 903
+        },
+        {
+            "code": "904",
+            "value": "Telecommunications Line Installers and Repairers",
+            "position": 904
+        },
+        {
+            "code": "905",
+            "value": "Telecommunications Maintenance Worker",
+            "position": 905
+        },
+        {
+            "code": "906",
+            "value": "Telecommunications Technician",
+            "position": 906
+        },
+        {
+            "code": "907",
+            "value": "Telephone Station Installers",
+            "position": 907
+        },
+        {
+            "code": "908",
+            "value": "Textile Bleaching and Dyeing Machine Operators",
+            "position": 908
+        },
+        {
+            "code": "909",
+            "value": "Textile Cutting Machine Operators",
+            "position": 909
+        },
+        {
+            "code": "910",
+            "value": "Textile Designer",
+            "position": 910
+        },
+        {
+            "code": "911",
+            "value": "Tile and Marble Setters",
+            "position": 911
+        },
+        {
+            "code": "912",
+            "value": "Title Examiner",
+            "position": 912
+        },
+        {
+            "code": "913",
+            "value": "Title Searchers",
+            "position": 913
+        },
+        {
+            "code": "914",
+            "value": "Tool & Machine Designer",
+            "position": 914
+        },
+        {
+            "code": "915",
+            "value": "Tool and Die Makers",
+            "position": 915
+        },
+        {
+            "code": "916",
+            "value": "Tool Grinders, Filers, and Sharpeners",
+            "position": 916
+        },
+        {
+            "code": "917",
+            "value": "Tour Guide",
+            "position": 917
+        },
+        {
+            "code": "918",
+            "value": "Town Clerk",
+            "position": 918
+        },
+        {
+            "code": "919",
+            "value": "Traffic Administrator (Freight & Passenger)",
+            "position": 919
+        },
+        {
+            "code": "920",
+            "value": "Traffic Agent",
+            "position": 920
+        },
+        {
+            "code": "921",
+            "value": "Traffic Technicians",
+            "position": 921
+        },
+        {
+            "code": "922",
+            "value": "Transit and Railroad Police",
+            "position": 922
+        },
+        {
+            "code": "923",
+            "value": "Transportation Attendants",
+            "position": 923
+        },
+        {
+            "code": "924",
+            "value": "Transportation Systems Design Engineer",
+            "position": 924
+        },
+        {
+            "code": "925",
+            "value": "Travel Agent",
+            "position": 925
+        },
+        {
+            "code": "926",
+            "value": "Travel Clerks",
+            "position": 926
+        },
+        {
+            "code": "927",
+            "value": "Travel Counselor",
+            "position": 927
+        },
+        {
+            "code": "928",
+            "value": "Travel Writer (Journalist)",
+            "position": 928
+        },
+        {
+            "code": "929",
+            "value": "Treasurer (Corporate)",
+            "position": 929
+        },
+        {
+            "code": "930",
+            "value": "Treatment Plant Operators",
+            "position": 930
+        },
+        {
+            "code": "931",
+            "value": "Tree Trimmers and Pruners",
+            "position": 931
+        },
+        {
+            "code": "932",
+            "value": "Truck Driver, Light Duty",
+            "position": 932
+        },
+        {
+            "code": "933",
+            "value": "Truck Driver, Long Distance",
+            "position": 933
+        },
+        {
+            "code": "934",
+            "value": "Ultrasound Technologist",
+            "position": 934
+        },
+        {
+            "code": "935",
+            "value": "Unemployment Inspector",
+            "position": 935
+        },
+        {
+            "code": "936",
+            "value": "Urban and Regional Planner",
+            "position": 936
+        },
+        {
+            "code": "937",
+            "value": "Ushers and Lobby Attendants",
+            "position": 937
+        },
+        {
+            "code": "938",
+            "value": "Utility Meter Reader",
+            "position": 938
+        },
+        {
+            "code": "939",
+            "value": "Vending Machine Mechanic",
+            "position": 939
+        },
+        {
+            "code": "940",
+            "value": "Veterinarian (VMD)",
+            "position": 940
+        },
+        {
+            "code": "941",
+            "value": "Veterinarian Technician",
+            "position": 941
+        },
+        {
+            "code": "942",
+            "value": "Veterinary Assistant",
+            "position": 942
+        },
+        {
+            "code": "943",
+            "value": "Video Engineer",
+            "position": 943
+        },
+        {
+            "code": "944",
+            "value": "Vocational Education Instructors College",
+            "position": 944
+        },
+        {
+            "code": "945",
+            "value": "Vocational Education Teachers, High School",
+            "position": 945
+        },
+        {
+            "code": "946",
+            "value": "Vocational Education Teachers, Middle School",
+            "position": 946
+        },
+        {
+            "code": "947",
+            "value": "Vocational Rehabilitation Counselor",
+            "position": 947
+        },
+        {
+            "code": "948",
+            "value": "Voice Pathologist",
+            "position": 948
+        },
+        {
+            "code": "949",
+            "value": "Waiters and Waitresses",
+            "position": 949
+        },
+        {
+            "code": "950",
+            "value": "Warehouse Stock Clerk",
+            "position": 950
+        },
+        {
+            "code": "951",
+            "value": "Watch Repairers",
+            "position": 951
+        },
+        {
+            "code": "952",
+            "value": "Water Pollution Control Inspector",
+            "position": 952
+        },
+        {
+            "code": "953",
+            "value": "Weather Observer",
+            "position": 953
+        },
+        {
+            "code": "954",
+            "value": "Web Art Director",
+            "position": 954
+        },
+        {
+            "code": "955",
+            "value": "Weighers and Measurers",
+            "position": 955
+        },
+        {
+            "code": "956",
+            "value": "Welder (Gas, Arc, Plasma, Laser)",
+            "position": 956
+        },
+        {
+            "code": "957",
+            "value": "Welfare Eligibility Workers and Interviewers",
+            "position": 957
+        },
+        {
+            "code": "958",
+            "value": "Wholesale Buyers",
+            "position": 958
+        },
+        {
+            "code": "959",
+            "value": "Wildlife Biologist",
+            "position": 959
+        },
+        {
+            "code": "960",
+            "value": "Wildlife Control Agent",
+            "position": 960
+        },
+        {
+            "code": "961",
+            "value": "Windows - Draperies Treatment Specialist",
+            "position": 961
+        },
+        {
+            "code": "962",
+            "value": "Woodworking Machine Operators",
+            "position": 962
+        },
+        {
+            "code": "963",
+            "value": "Word Processing Specialist",
+            "position": 963
+        },
+        {
+            "code": "964",
+            "value": "Writer /Author",
+            "position": 964
+        },
+        {
+            "code": "965",
+            "value": "Zoo Veterinarian",
+            "position": 965
+        },
+        {
+            "code": "966",
+            "value": "Zoologist",
+            "position": 966
+        }
+    ]
+}

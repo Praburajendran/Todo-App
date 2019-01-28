@@ -1,0 +1,16 @@
+<!-- Top Nav Bar -->
+<nav class="w3-sidebar w3-collapse w3-animate-top w3-card-2 sidebar" style="z-index:3;width:100%" id="mySidebar">
+		<!-- Top Nav Bar Links -->
+		
+		<a [class]="menuclass+' w3-bar-item w3-button'" style="width:33%" [ngClass]="{'w3-teal': (active == '/')}" routerLink="/"> <i class="w3-medium fa fa-list"></i>  Todo List</a>
+		<a [class]="menuclass+' w3-bar-item w3-button'" style="width:33%" routerLink="/add"  [ngClass]="{'w3-teal': (active == '/add')}"> <i class="w3-medium fa fa-plus"></i>  Add New Todo</a>
+		<a class="w3-bar-item w3-button w3-teal" style="width:33%" (click)="logOut()" routerLink="/login" [ngClass]="{'w3-teal': (active == '/login')}"><i class="w3-medium fa fa-sign-out"></i>  {{loginstatus}} <span *ngIf="username != null" style="font-size:14px; float:right">Welcome <b>{{username}}</b></span></a>
+</nav>
+	
+<!-- contents -->
+<div class="w3-main">
+	<div class="w3-container childcontent">
+	<!--  Child Routing -->
+		<router-outlet></router-outlet>
+	</div>
+</div>
